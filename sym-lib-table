@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Molex)(type Legacy)(uri ${KIPRJMOD}/lib/Molex.lib)(options "")(descr ""))
+  (lib (name Omron_G6AU)(type Legacy)(uri ${KIPRJMOD}/lib/Omron_G6AU.lib)(options "")(descr ""))
+  (lib (name Custom_logos)(type Legacy)(uri ${KIPRJMOD}/lib/Custom_logos.lib)(options "")(descr ""))
+)

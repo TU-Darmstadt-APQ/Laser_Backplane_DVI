@@ -1,0 +1,638 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Laser Backplane Diode DVI"
+Date "2020-10-15"
+Rev "1.4"
+Comp "APQ"
+Comment1 "Tilman Preuschoff & Patrick Baus"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4900 1350 4900 1500
+Wire Wire Line
+	4900 950  4900 1050
+Wire Wire Line
+	3850 950  3850 1400
+Connection ~ 3850 950 
+Wire Wire Line
+	3350 950  3350 1100
+Connection ~ 3350 950 
+Wire Wire Line
+	3350 1600 3550 1600
+$Comp
+L Device:D_Schottky D2
+U 1 1 5934292B
+P 3600 2400
+F 0 "D2" H 3600 2250 50  0000 C CNN
+F 1 "BAT54" H 3600 2550 50  0000 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 3600 2524 50  0001 C CNN
+F 3 "" H 3600 2400 50  0000 C CNN
+F 4 "STMicroelectronics" H 3600 2400 60  0001 C CNN "MFN"
+F 5 "BAT54SFILMY" H 3600 2400 50  0001 C CNN "PN"
+F 6 "Use a low Vf Schottky" V 3600 2400 60  0001 C CNN "Note"
+	1    3600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2400 4900 2100
+Wire Wire Line
+	3750 2400 3850 2400
+Wire Wire Line
+	3850 2400 3850 1800
+Connection ~ 3850 2400
+Connection ~ 3350 1600
+$Comp
+L Device:R R3
+U 1 1 59341A00
+P 3350 1250
+F 0 "R3" H 3420 1296 50  0000 L CNN
+F 1 "1k" H 3420 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 1250 50  0001 C CNN
+F 3 "" H 3350 1250 50  0001 C CNN
+F 4 "Susumu" H 3350 1250 60  0001 C CNN "MFN"
+F 5 "RR0816P-102-D" H 3350 1250 50  0001 C CNN "PN"
+	1    3350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1400 3350 1600
+Wire Wire Line
+	3450 2400 3350 2400
+Text Notes 3150 2750 0    60   ~ 0
+Note: Use a low Vf Schottky diode
+Wire Wire Line
+	3850 950  4900 950 
+Wire Wire Line
+	3350 950  3850 950 
+Wire Wire Line
+	3350 1600 3350 2400
+$Comp
+L Device:R R?
+U 1 1 5BC1B30D
+P 6500 2050
+AR Path="/58C0011A/595D86D5/5BC1B30D" Ref="R?"  Part="1" 
+AR Path="/5933E182/5BC1B30D" Ref="R?"  Part="1" 
+AR Path="/5BC1B30D" Ref="R5"  Part="1" 
+F 0 "R5" H 6600 2100 50  0000 L CNN
+F 1 "2k" H 6600 2000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 6430 2050 50  0001 C CNN
+F 3 "~" H 6500 2050 50  0001 C CNN
+	1    6500 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 2100 5700 2300
+$Comp
+L Device:LED D4
+U 1 1 5BC1FD28
+P 6500 1650
+F 0 "D4" V 6550 1500 50  0000 R CNN
+F 1 "Green" V 6450 1500 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_FlatTop" H 6500 1650 50  0001 C CNN
+F 3 "~" H 6500 1650 50  0001 C CNN
+F 4 "Kingbright" H 6500 1650 50  0001 C CNN "MFN"
+F 5 "WP424GDT" H 6500 1650 50  0001 C CNN "PN"
+	1    6500 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2300 6500 2200
+Wire Wire Line
+	6500 1900 6500 1800
+NoConn ~ 5400 1500
+Wire Wire Line
+	5700 2300 6500 2300
+Text Notes 6750 2150 0    60   ~ 0
+Note: The LED turns on when\nthe laser is *on*
+$Comp
+L Device:CP C3
+U 1 1 59341324
+P 4900 1200
+F 0 "C3" H 5018 1246 50  0000 L CNN
+F 1 "47u" H 5018 1155 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 4938 1050 50  0001 C CNN
+F 3 "" H 4900 1200 50  0001 C CNN
+F 4 "Nichicon" H 4900 1200 60  0001 C CNN "MFN"
+F 5 "UHV1V470MDD" H 4900 1200 50  0001 C CNN "PN"
+	1    4900 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D43EA34
+P 2900 950
+AR Path="/58C0011A/590FFCC9/5D43EA34" Ref="D?"  Part="1" 
+AR Path="/5933E182/5D43EA34" Ref="D?"  Part="1" 
+AR Path="/5D43EA34" Ref="D1"  Part="1" 
+F 0 "D1" H 2900 700 50  0000 C CNN
+F 1 "BAS21GWX" H 2900 800 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2900 950 50  0001 C CNN
+F 3 "~" H 2900 950 50  0001 C CNN
+F 4 "Nexperia" H 2900 950 50  0001 C CNN "MFN"
+F 5 "BAS21GWX" H 2900 950 50  0001 C CNN "PN"
+	1    2900 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 950  3350 950 
+Wire Wire Line
+	3350 1600 2550 1600
+Wire Wire Line
+	3850 2400 4900 2400
+$Comp
+L Molex:DVI-I J2
+U 1 1 5DC2FB42
+P 3250 3650
+F 0 "J2" H 3680 3246 50  0000 L CNN
+F 1 "DVI-I" H 3680 3155 50  0000 L CNN
+F 2 "custom:DVI-I_Conn_Link_CDVI-F29VDG1-P1" H 3275 3650 50  0001 C CNN
+F 3 "" H 3275 3650 50  0001 C CNN
+F 4 "Conn_Link" H 3250 3650 50  0001 C CNN "MFN"
+F 5 "CDVI-F29VDG1-P1" H 3250 3650 50  0001 C CNN "MFP"
+	1    3250 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Omron_G6AU:G6AU K1
+U 1 1 5DC40B51
+P 5300 1800
+F 0 "K1" H 5930 1846 50  0000 L CNN
+F 1 "G6AU" H 5930 1755 50  0000 L CNN
+F 2 "custom:Relay_SPDT_OMRON-G6A" H 5850 1850 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+F 4 "Omron" H 5300 1800 50  0001 C CNN "MFN"
+F 5 "G6AU-274P-ST-US-DC9" H 5300 1800 50  0001 C CNN "PN"
+	1    5300 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 950 
+$Comp
+L power:GND #PWR0101
+U 1 1 5DC4743F
+P 5400 4150
+F 0 "#PWR0101" H 5400 3900 50  0001 C CNN
+F 1 "GND" H 5405 3977 50  0000 C CNN
+F 2 "" H 5400 4150 50  0001 C CNN
+F 3 "" H 5400 4150 50  0001 C CNN
+	1    5400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3550 5400 3550
+Connection ~ 5400 3550
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5DA73E12
+P 1750 5500
+F 0 "J1" H 1668 5717 50  0000 C CNN
+F 1 "Bias-T" H 1668 5626 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 1750 5500 50  0001 C CNN
+F 3 "~" H 1750 5500 50  0001 C CNN
+	1    1750 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transformer:ADT1-1 TR1
+U 1 1 5DA82DCE
+P 2950 5800
+F 0 "TR1" H 2950 6181 50  0000 C CNN
+F 1 "SWB1010" H 2950 6090 50  0000 C CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 2950 5450 50  0001 C CNN
+F 3 "" H 2950 5800 50  0001 C CNN
+F 4 "Coilcraft" H 2950 5800 50  0001 C CNN "MFN"
+F 5 "SWB1010-PCL" H 2950 5800 50  0001 C CNN "PN"
+	1    2950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5DA84766
+P 2350 5500
+F 0 "R2" V 2154 5500 50  0000 C CNN
+F 1 "49.9" V 2245 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 2350 5500 50  0001 C CNN
+F 3 "~" H 2350 5500 50  0001 C CNN
+	1    2350 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5DA861ED
+P 3950 5500
+F 0 "C2" V 3721 5500 50  0000 C CNN
+F 1 "3.3n (C0G)" V 3812 5500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3950 5500 50  0001 C CNN
+F 3 "~" H 3950 5500 50  0001 C CNN
+	1    3950 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 5500 4200 4850
+Wire Wire Line
+	1950 5500 2250 5500
+$Comp
+L Device:R_Small R4
+U 1 1 5DA89529
+P 3500 5850
+F 0 "R4" H 3559 5896 50  0000 L CNN
+F 1 "49.9" H 3559 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 3500 5850 50  0001 C CNN
+F 3 "~" H 3500 5850 50  0001 C CNN
+	1    3500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5950 3500 6100
+Wire Wire Line
+	3500 5500 3500 5750
+Wire Wire Line
+	3500 5500 3850 5500
+Wire Wire Line
+	3500 6100 4300 6100
+Wire Wire Line
+	4200 5500 4050 5500
+Text GLabel 5300 2250 3    50   UnSpc ~ 0
+LD_short-
+Wire Wire Line
+	5300 2100 5300 2250
+Text GLabel 5200 1400 1    50   UnSpc ~ 0
+LD_short+
+Wire Wire Line
+	5200 1400 5200 1500
+Text GLabel 5600 5400 1    50   UnSpc ~ 0
+LD_short+
+Text GLabel 5600 6200 3    50   UnSpc ~ 0
+LD_short-
+Wire Wire Line
+	5600 5400 5600 5500
+Connection ~ 5600 5500
+Wire Wire Line
+	5600 6200 5600 6100
+Connection ~ 5600 6100
+Wire Wire Line
+	2650 4150 2650 4850
+Wire Wire Line
+	2650 4850 3250 4850
+Wire Wire Line
+	3250 4150 3250 4850
+Connection ~ 3250 4850
+Wire Wire Line
+	2750 4150 2750 4750
+Wire Wire Line
+	2750 4750 3350 4750
+Wire Wire Line
+	3350 4150 3350 4750
+Connection ~ 3350 4750
+NoConn ~ 2450 4150
+NoConn ~ 2550 4150
+NoConn ~ 2850 4150
+NoConn ~ 2950 4150
+NoConn ~ 3050 4150
+NoConn ~ 3150 4150
+NoConn ~ 3450 4150
+NoConn ~ 3550 4150
+NoConn ~ 3850 4150
+NoConn ~ 3950 4150
+NoConn ~ 4050 4150
+NoConn ~ 4150 4150
+NoConn ~ 4250 4150
+NoConn ~ 4550 4150
+NoConn ~ 4450 4150
+Text GLabel 1950 3650 0    50   Output ~ 0
+Relay+
+Wire Wire Line
+	2150 3650 2050 3650
+Text GLabel 4750 4300 3    50   Output ~ 0
+Relay-
+Wire Wire Line
+	4750 4150 4750 4300
+Text GLabel 1250 950  0    50   Input ~ 0
+Relay+
+Wire Wire Line
+	6500 1350 6500 1500
+$Comp
+L power:GND #PWR0102
+U 1 1 5DD1FA80
+P 6800 1450
+F 0 "#PWR0102" H 6800 1200 50  0001 C CNN
+F 1 "GND" H 6805 1277 50  0000 C CNN
+F 2 "" H 6800 1450 50  0001 C CNN
+F 3 "" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1350 6800 1350
+Wire Wire Line
+	6800 1350 6800 1450
+Text GLabel 2550 1600 0    50   Input ~ 0
+Relay-
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DD2A315
+P 5400 3350
+F 0 "#FLG0101" H 5400 3425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 3523 50  0000 C CNN
+F 2 "" H 5400 3350 50  0001 C CNN
+F 3 "~" H 5400 3350 50  0001 C CNN
+	1    5400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DD2BB2A
+P 2050 3650
+F 0 "#FLG0102" H 2050 3725 50  0001 C CNN
+F 1 "PWR_FLAG" H 2050 3823 50  0000 C CNN
+F 2 "" H 2050 3650 50  0001 C CNN
+F 3 "~" H 2050 3650 50  0001 C CNN
+	1    2050 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 3650
+Wire Wire Line
+	2050 3650 1950 3650
+Wire Wire Line
+	5400 3350 5400 3550
+Wire Wire Line
+	5400 3550 5400 4150
+NoConn ~ 5250 3350
+NoConn ~ 5250 3450
+NoConn ~ 5250 3650
+NoConn ~ 5250 3750
+NoConn ~ 5250 3850
+NoConn ~ 5250 3950
+$Comp
+L Transistor_BJT:MMBT3904 Q1
+U 1 1 5DCC0709
+P 3750 1600
+F 0 "Q1" H 3941 1646 50  0000 L CNN
+F 1 "MMBT3904" H 3941 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 1525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3750 1600 50  0001 L CNN
+	1    3750 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 950  2750 950 
+Wire Wire Line
+	5800 950  5800 1500
+Wire Wire Line
+	4900 950  5800 950 
+NoConn ~ 5600 1500
+$Comp
+L Device:R_Small R1
+U 1 1 5DF17679
+P 5000 5500
+F 0 "R1" V 4804 5500 50  0000 C CNN
+F 1 "5.6 / 750 mW" V 4895 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 5000 5500 50  0001 C CNN
+F 3 "~" H 5000 5500 50  0001 C CNN
+F 4 "Panasonic" V 5000 5500 50  0001 C CNN "MFN"
+F 5 "ERJ-1TRQF5R6U" V 5000 5500 50  0001 C CNN "MFP"
+	1    5000 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 6100 4300 6100
+Connection ~ 4300 6100
+Wire Wire Line
+	4900 5500 4200 5500
+Connection ~ 4200 5500
+Wire Wire Line
+	4300 4750 4300 6100
+Wire Wire Line
+	2450 5500 2700 5500
+$Comp
+L Device:R_Small R6
+U 1 1 5DF25AA7
+P 5000 6100
+F 0 "R6" V 4804 6100 50  0000 C CNN
+F 1 "5.6 / 750 mW" V 4895 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 5000 6100 50  0001 C CNN
+F 3 "~" H 5000 6100 50  0001 C CNN
+F 4 "Panasonic" V 5000 6100 50  0001 C CNN "MFN"
+F 5 "ERJ-1TRQF5R6U" V 5000 6100 50  0001 C CNN "MFP"
+	1    5000 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 4850 4200 4850
+Wire Wire Line
+	3350 4750 4300 4750
+Text GLabel 3650 4300 3    50   Input ~ 0
+V_diode+
+Text GLabel 3750 4300 3    50   Input ~ 0
+V_diode-
+Wire Wire Line
+	3650 4300 3650 4150
+Wire Wire Line
+	3750 4300 3750 4150
+Wire Wire Line
+	1750 5700 1750 6100
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5E878D59
+P 8650 4300
+F 0 "J7" H 8750 4275 50  0000 L CNN
+F 1 "Piezo_In" H 8750 4184 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 8650 4300 50  0001 C CNN
+F 3 " ~" H 8650 4300 50  0001 C CNN
+	1    8650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4300 7850 4300
+Wire Wire Line
+	8650 4650 8650 4500
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5E87DEF9
+P 7650 4300
+F 0 "J5" H 7568 4075 50  0000 C CNN
+F 1 "Pz+" H 7568 4166 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 7650 4300 50  0001 C CNN
+F 3 "~" H 7650 4300 50  0001 C CNN
+	1    7650 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5E87E3D8
+P 7650 4650
+F 0 "J6" H 7568 4425 50  0000 C CNN
+F 1 "Pz-" H 7568 4516 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 7650 4650 50  0001 C CNN
+F 3 "~" H 7650 4650 50  0001 C CNN
+	1    7650 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 4650 8650 4650
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5E881BC7
+P 6850 5500
+F 0 "J3" H 6930 5542 50  0000 L CNN
+F 1 "Ld+" H 6930 5451 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 6850 5500 50  0001 C CNN
+F 3 "~" H 6850 5500 50  0001 C CNN
+	1    6850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5E881EAB
+P 6850 6100
+F 0 "J4" H 6930 6142 50  0000 L CNN
+F 1 "Ld-" H 6930 6051 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 6850 6100 50  0001 C CNN
+F 3 "~" H 6850 6100 50  0001 C CNN
+	1    6850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6100 5600 6100
+Wire Wire Line
+	6250 5800 6200 5800
+Wire Wire Line
+	5600 6100 5950 6100
+Wire Wire Line
+	5600 5500 5950 5500
+Wire Wire Line
+	5100 5500 5600 5500
+Wire Wire Line
+	6200 5800 6200 6100
+Connection ~ 6200 6100
+Wire Wire Line
+	6200 6100 5950 6100
+Text GLabel 5950 5000 1    50   Output ~ 0
+V_diode+
+Wire Wire Line
+	2750 6000 2700 6000
+Wire Wire Line
+	2700 6000 2700 6100
+Wire Wire Line
+	2700 6100 1750 6100
+Wire Wire Line
+	3150 6000 3200 6000
+Connection ~ 3500 6100
+Wire Wire Line
+	2700 5500 2700 5600
+Wire Wire Line
+	2700 5600 2750 5600
+Wire Wire Line
+	3150 5600 3200 5600
+Wire Wire Line
+	3200 5600 3200 5500
+Wire Wire Line
+	3200 5500 3500 5500
+Connection ~ 3500 5500
+Wire Wire Line
+	3200 6100 3200 6000
+Wire Wire Line
+	3200 6100 3500 6100
+Wire Wire Line
+	6550 5600 6550 5500
+Wire Wire Line
+	6550 5500 6650 5500
+Wire Wire Line
+	6550 5500 5950 5500
+Connection ~ 6550 5500
+Connection ~ 5950 5500
+$Comp
+L Device:Q_NPN_EBC Q2
+U 1 1 5E99C549
+P 6450 5800
+F 0 "Q2" H 6640 5754 50  0000 L CNN
+F 1 "2N4401" H 6640 5845 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Horizontal1" H 6650 5900 50  0001 C CNN
+F 3 "~" H 6450 5800 50  0001 C CNN
+F 4 "ON Semiconductor" H 6450 5800 50  0001 C CNN "MFN"
+F 5 "2N4401BU" H 6450 5800 50  0001 C CNN "MPN"
+	1    6450 5800
+	1    0    0    1   
+$EndComp
+Connection ~ 5950 6100
+Wire Wire Line
+	6550 6000 6550 6100
+Connection ~ 6550 6100
+Wire Wire Line
+	6550 6100 6650 6100
+Wire Wire Line
+	6200 6100 6550 6100
+Wire Wire Line
+	5950 5450 5950 5500
+Wire Wire Line
+	5950 6150 5950 6100
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5F518C10
+P 10850 6850
+F 0 "LOGO2" H 10850 7125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10850 6625 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_7.5x8mm_SilkScreen" H 10850 6850 50  0001 C CNN
+F 3 "~" H 10850 6850 50  0001 C CNN
+	1    10850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_logos:Logo_APQ LOGO1
+U 1 1 5F5191FF
+P 9500 6850
+F 0 "LOGO1" H 9750 7125 50  0001 C CNN
+F 1 "Logo_APQ" H 9750 6600 50  0001 C CNN
+F 2 "custom:APQ-Logo_small" H 9800 6850 50  0001 C CNN
+F 3 "~" H 9800 6850 50  0001 C CNN
+	1    9500 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5150 5950 5000
+$Comp
+L Device:R R?
+U 1 1 5F87A319
+P 5950 5300
+AR Path="/58C0011A/595D86D5/5F87A319" Ref="R?"  Part="1" 
+AR Path="/5933E182/5F87A319" Ref="R?"  Part="1" 
+AR Path="/5F87A319" Ref="R7"  Part="1" 
+F 0 "R7" H 6050 5350 50  0000 L CNN
+F 1 "1k" H 6050 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 5300 50  0001 C CNN
+F 3 "~" H 5950 5300 50  0001 C CNN
+F 4 "Susumu" H 5950 5300 50  0001 C CNN "MFN"
+F 5 "RR0816P-102-D" H 5950 5300 50  0001 C CNN "PN"
+	1    5950 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8863AB
+P 5950 6300
+AR Path="/58C0011A/595D86D5/5F8863AB" Ref="R?"  Part="1" 
+AR Path="/5933E182/5F8863AB" Ref="R?"  Part="1" 
+AR Path="/5F8863AB" Ref="R8"  Part="1" 
+F 0 "R8" H 6050 6350 50  0000 L CNN
+F 1 "1k" H 6050 6250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 6300 50  0001 C CNN
+F 3 "~" H 5950 6300 50  0001 C CNN
+F 4 "Susumu" H 5950 6300 50  0001 C CNN "MFN"
+F 5 "RR0816P-102-D" H 5950 6300 50  0001 C CNN "PN"
+	1    5950 6300
+	-1   0    0    1   
+$EndComp
+Text GLabel 5950 6600 3    50   Output ~ 0
+V_diode-
+Wire Wire Line
+	5950 6600 5950 6450
+Text Notes 6150 5250 0    50   ~ 0
+The 1k resistors are for protection
+Text Notes 6150 6350 0    50   ~ 0
+The 1k resistors are for protection
+$EndSCHEMATC
