@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT21CS11-STXXXX-X
+D I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SOT-23
+K Onewire Serial EEPROM Nonvolatile Memory
+F https://ww1.microchip.com/downloads/en/DeviceDoc/AT21CS01-AT21CS11-Data-Sheet-DS20005857D.pdf
+$ENDCMP
+#
+#End Doc Library

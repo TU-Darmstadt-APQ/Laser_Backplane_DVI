@@ -255,7 +255,6 @@ NoConn ~ 3950 4150
 NoConn ~ 4050 4150
 NoConn ~ 4150 4150
 NoConn ~ 4250 4150
-NoConn ~ 4450 4150
 Text GLabel 1200 3650 0    50   Output ~ 0
 +12V
 Text GLabel 4750 4300 3    50   Output ~ 0
@@ -939,17 +938,6 @@ Text GLabel 8700 5550 0    50   Input ~ 0
 Wire Wire Line
 	8700 5550 8800 5550
 Connection ~ 8800 5550
-$Comp
-L Regulator_Linear:LT1964-5 U3
-U 1 1 6052EB9E
-P 9550 5650
-F 0 "U3" H 9550 5308 50  0000 C CNN
-F 1 "LT1964-5" H 9550 5399 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 9550 5350 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1964fb.pdf" H 9550 5650 50  0001 C CNN
-	1    9550 5650
-	1    0    0    1   
-$EndComp
 Text GLabel 7900 5550 2    50   Output ~ 0
 +5V
 Text GLabel 10750 5550 2    50   Output ~ 0
@@ -1131,8 +1119,6 @@ Text GLabel 5700 6450 1    50   Input ~ 0
 +5V
 Text GLabel 5700 7500 3    50   Input ~ 0
 -5V
-Wire Wire Line
-	4550 4150 4550 5050
 $Comp
 L Device:R_Small R4
 U 1 1 6083440B
@@ -1163,7 +1149,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 5150 1250 5050
 Wire Wire Line
-	1850 5050 4550 5050
+	1850 5050 4450 5050
 Connection ~ 1250 5050
 Wire Wire Line
 	1250 5050 1300 5050
@@ -1185,4 +1171,49 @@ Wire Wire Line
 	5700 6450 5700 6650
 Wire Wire Line
 	5700 7250 5700 7500
+Wire Wire Line
+	4450 4150 4450 5050
+$Comp
+L Microchip:AT21CS11-STXXXX-X U4
+U 1 1 60A01FFA
+P 6850 4550
+F 0 "U4" H 6500 4550 50  0000 R CNN
+F 1 "AT21CS11-STXXXX-X" H 6500 4450 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 4550 50  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/AT21CS01-AT21CS11-Data-Sheet-DS20005857D.pdf" H 6850 4550 50  0001 C CNN
+	1    6850 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 60A12DE2
+P 6850 4950
+F 0 "#PWR0109" H 6850 4700 50  0001 C CNN
+F 1 "GND" H 6855 4777 50  0000 C CNN
+F 2 "" H 6850 4950 50  0001 C CNN
+F 3 "" H 6850 4950 50  0001 C CNN
+	1    6850 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4950 6850 4850
+Wire Wire Line
+	4550 4150 4550 4650
+Wire Wire Line
+	4550 4650 6150 4650
+Wire Wire Line
+	6150 4650 6150 4550
+Wire Wire Line
+	6150 4550 6450 4550
+$Comp
+L Regulator_Linear:LT1964-5 U3
+U 1 1 6052EB9E
+P 9550 5650
+F 0 "U3" H 9550 5308 50  0000 C CNN
+F 1 "LT1964-5" H 9550 5399 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 9550 5350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1964fb.pdf" H 9550 5650 50  0001 C CNN
+	1    9550 5650
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
