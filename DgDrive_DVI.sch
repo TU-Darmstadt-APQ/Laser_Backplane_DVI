@@ -83,6 +83,8 @@ F 0 "R5" H 6600 2100 50  0000 L CNN
 F 1 "1k" H 6600 2000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 2050 50  0001 C CNN
 F 3 "~" H 6500 2050 50  0001 C CNN
+F 4 "Susumu" H 6500 2050 50  0001 C CNN "MFN"
+F 5 "RR0816P-102-D" H 6500 2050 50  0001 C CNN "PN"
 	1    6500 2050
 	-1   0    0    1   
 $EndComp
@@ -154,7 +156,7 @@ F 1 "DVI-I" H 3680 3155 50  0000 L CNN
 F 2 "custom:DVI-I_Conn_Link_CDVI-F29VDG1-P1" H 3275 3650 50  0001 C CNN
 F 3 "" H 3275 3650 50  0001 C CNN
 F 4 "Conn_Link" H 3250 3650 50  0001 C CNN "MFN"
-F 5 "CDVI-F29VDG1-P1" H 3250 3650 50  0001 C CNN "MFP"
+F 5 "CDVI-F29VDG1-P1" H 3250 3650 50  0001 C CNN "PN"
 	1    3250 3650
 	0    -1   -1   0   
 $EndComp
@@ -194,6 +196,7 @@ F 0 "J1" H 818 6567 50  0000 C CNN
 F 1 "Curr. Mod." H 818 6476 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 900 6350 50  0001 C CNN
 F 3 "~" H 900 6350 50  0001 C CNN
+F 4 "DNF" H 900 6350 50  0001 C CNN "Config"
 	1    900  6350
 	-1   0    0    -1  
 $EndComp
@@ -205,6 +208,8 @@ F 0 "R2" V 1054 6550 50  0000 C CNN
 F 1 "49.9" V 1145 6550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" H 1250 6550 50  0001 C CNN
 F 3 "~" H 1250 6550 50  0001 C CNN
+F 4 "Yageo" V 1250 6550 50  0001 C CNN "MFN"
+F 5 "RC1210FR-0749R9L" V 1250 6550 50  0001 C CNN "PN"
 	1    1250 6550
 	1    0    0    -1  
 $EndComp
@@ -322,6 +327,8 @@ F 0 "Q1" H 3941 1646 50  0000 L CNN
 F 1 "MMBT3904" H 3941 1555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 1525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3750 1600 50  0001 L CNN
+F 4 "Nexperia" H 3750 1600 50  0001 C CNN "MFN"
+F 5 "MMBT3904VL" H 3750 1600 50  0001 C CNN "PN"
 	1    3750 1600
 	1    0    0    -1  
 $EndComp
@@ -378,6 +385,7 @@ F 0 "J7" H 10250 1125 50  0000 L CNN
 F 1 "Piezo_In" H 10250 1034 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 10150 1150 50  0001 C CNN
 F 3 " ~" H 10150 1150 50  0001 C CNN
+F 4 "DNF" H 10150 1150 50  0001 C CNN "Config"
 	1    10150 1150
 	1    0    0    -1  
 $EndComp
@@ -393,6 +401,7 @@ F 0 "J5" H 9068 925 50  0000 C CNN
 F 1 "Pz+" H 9068 1016 50  0000 C CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 9150 1150 50  0001 C CNN
 F 3 "~" H 9150 1150 50  0001 C CNN
+F 4 "DNF" H 9150 1150 50  0001 C CNN "Config"
 	1    9150 1150
 	-1   0    0    1   
 $EndComp
@@ -404,6 +413,7 @@ F 0 "J6" H 9068 1275 50  0000 C CNN
 F 1 "Pz-" H 9068 1366 50  0000 C CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 9150 1500 50  0001 C CNN
 F 3 "~" H 9150 1500 50  0001 C CNN
+F 4 "DNF" H 9150 1500 50  0001 C CNN "Config"
 	1    9150 1500
 	-1   0    0    1   
 $EndComp
@@ -417,6 +427,7 @@ F 0 "J3" H 9980 3542 50  0000 L CNN
 F 1 "Ld+" H 9980 3451 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 9900 3500 50  0001 C CNN
 F 3 "~" H 9900 3500 50  0001 C CNN
+F 4 "DNF" H 9900 3500 50  0001 C CNN "Config"
 	1    9900 3500
 	1    0    0    -1  
 $EndComp
@@ -428,6 +439,7 @@ F 0 "J4" H 9980 4142 50  0000 L CNN
 F 1 "Ld-" H 9980 4051 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 9900 4100 50  0001 C CNN
 F 3 "~" H 9900 4100 50  0001 C CNN
+F 4 "DNF" H 9900 4100 50  0001 C CNN "Config"
 	1    9900 4100
 	1    0    0    -1  
 $EndComp
@@ -465,7 +477,7 @@ F 1 "2N4401" H 9690 3845 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Horizontal1" H 9700 3900 50  0001 C CNN
 F 3 "~" H 9500 3800 50  0001 C CNN
 F 4 "ON Semiconductor" H 9500 3800 50  0001 C CNN "MFN"
-F 5 "2N4401BU" H 9500 3800 50  0001 C CNN "MPN"
+F 5 "2N4401BU" H 9500 3800 50  0001 C CNN "PN"
 	1    9500 3800
 	1    0    0    1   
 $EndComp
@@ -489,6 +501,7 @@ F 0 "LOGO2" H 10850 7125 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10850 6625 50  0001 C CNN
 F 2 "Symbol:OSHW-Logo_7.5x8mm_SilkScreen" H 10850 6850 50  0001 C CNN
 F 3 "~" H 10850 6850 50  0001 C CNN
+F 4 "DNF" H 10850 6850 50  0001 C CNN "Config"
 	1    10850 6850
 	1    0    0    -1  
 $EndComp
@@ -500,6 +513,7 @@ F 0 "LOGO1" H 9750 7125 50  0001 C CNN
 F 1 "Logo_APQ" H 9750 6600 50  0001 C CNN
 F 2 "custom:APQ-Logo_small" H 9800 6850 50  0001 C CNN
 F 3 "~" H 9800 6850 50  0001 C CNN
+F 4 "DNF" H 9500 6850 50  0001 C CNN "Config"
 	1    9500 6850
 	1    0    0    -1  
 $EndComp
@@ -682,7 +696,7 @@ F 1 "3.3u" V 8144 3200 50  0000 C CNN
 F 2 "custom:Coilcraft_XGL3530" H 8050 3200 50  0001 C CNN
 F 3 "~" H 8050 3200 50  0001 C CNN
 F 4 "Coilcraft" V 8050 3200 50  0001 C CNN "MFN"
-F 5 "XGL3530-332ME_ " V 8050 3200 50  0001 C CNN "PN"
+F 5 "XGL3530-332MEC" V 8050 3200 50  0001 C CNN "PN"
 	1    8050 3200
 	0    -1   -1   0   
 $EndComp
@@ -695,7 +709,7 @@ F 1 "3.3u" V 8144 4400 50  0000 C CNN
 F 2 "custom:Coilcraft_XGL3530" H 8050 4400 50  0001 C CNN
 F 3 "~" H 8050 4400 50  0001 C CNN
 F 4 "Coilcraft" V 8050 4400 50  0001 C CNN "MFN"
-F 5 "XGL3530-332ME_ " V 8050 4400 50  0001 C CNN "PN"
+F 5 "XGL3530-332MEC" V 8050 4400 50  0001 C CNN "PN"
 	1    8050 4400
 	0    -1   -1   0   
 $EndComp
@@ -747,6 +761,8 @@ F 0 "U2" H 6750 6017 50  0000 C CNN
 F 1 "LT1761-5" H 6750 5926 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 6750 5975 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf" H 6750 5650 50  0001 C CNN
+F 4 "Linear Technology" H 6750 5650 50  0001 C CNN "MFN"
+F 5 "LT1761ES5-5#TRPBF" H 6750 5650 50  0001 C CNN "PN"
 	1    6750 5650
 	1    0    0    -1  
 $EndComp
@@ -758,6 +774,8 @@ F 0 "C8" H 7542 5746 50  0000 L CNN
 F 1 "10n" H 7542 5655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7450 5700 50  0001 C CNN
 F 3 "~" H 7450 5700 50  0001 C CNN
+F 4 "Murata Electronics" H 7450 5700 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H103JA01J" H 7450 5700 50  0001 C CNN "PN"
 	1    7450 5700
 	1    0    0    -1  
 $EndComp
@@ -852,6 +870,8 @@ F 0 "C11" H 10342 5746 50  0000 L CNN
 F 1 "10n" H 10342 5655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10250 5700 50  0001 C CNN
 F 3 "~" H 10250 5700 50  0001 C CNN
+F 4 "Murata Electronics" H 10250 5700 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H103JA01J" H 10250 5700 50  0001 C CNN "PN"
 	1    10250 5700
 	1    0    0    -1  
 $EndComp
@@ -956,6 +976,8 @@ F 0 "U1" H 1950 6817 50  0000 C CNN
 F 1 "ADA4807-2ARM" H 1950 6726 50  0000 C CNN
 F 2 "custom:MSOP-8_3x3mm_P0.65mm_mod" H 1950 6450 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 1950 6450 50  0001 C CNN
+F 4 "Analog Devices" H 1950 6450 50  0001 C CNN "MFN"
+F 5 "ADA4807-2ARMZ" H 1950 6450 50  0001 C CNN "PN"
 	1    1950 6450
 	1    0    0    -1  
 $EndComp
@@ -967,6 +989,8 @@ F 0 "U1" H 3700 6917 50  0000 C CNN
 F 1 "ADA4807-2ARM" H 3700 6826 50  0000 C CNN
 F 2 "custom:MSOP-8_3x3mm_P0.65mm_mod" H 3700 6550 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 3700 6550 50  0001 C CNN
+F 4 "Analog Devices" H 3700 6550 50  0001 C CNN "MFN"
+F 5 "ADA4807-2ARMZ" H 3700 6550 50  0001 C CNN "PN"
 	2    3700 6550
 	1    0    0    -1  
 $EndComp
@@ -1181,6 +1205,7 @@ F 0 "U4" H 6500 4550 50  0000 R CNN
 F 1 "AT21CS11-STXXXX-X" H 6500 4450 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 4550 50  0001 C CNN
 F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/AT21CS01-AT21CS11-Data-Sheet-DS20005857D.pdf" H 6850 4550 50  0001 C CNN
+F 4 "DNF" H 6850 4550 50  0001 C CNN "Config"
 	1    6850 4550
 	-1   0    0    -1  
 $EndComp
@@ -1213,6 +1238,8 @@ F 0 "U3" H 9550 5308 50  0000 C CNN
 F 1 "LT1964-5" H 9550 5399 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 9550 5350 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1964fb.pdf" H 9550 5650 50  0001 C CNN
+F 4 "Linear Technology" H 9550 5650 50  0001 C CNN "MFN"
+F 5 "LT1964ES5-5#TRPBF" H 9550 5650 50  0001 C CNN "PN"
 	1    9550 5650
 	1    0    0    1   
 $EndComp
