@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Laser Backplane Diode DVI"
-Date "2021-03-15"
-Rev "1.4"
+Date "2021-07-23"
+Rev "1.5"
 Comp "APQ"
 Comment1 "Tilman Preuschoff & Patrick Baus"
 Comment2 ""
@@ -233,20 +233,6 @@ Connection ~ 8650 3500
 Wire Wire Line
 	8650 4200 8650 4100
 Connection ~ 8650 4100
-Wire Wire Line
-	2650 4150 2650 4850
-Wire Wire Line
-	2650 4850 3250 4850
-Wire Wire Line
-	3250 4150 3250 4850
-Connection ~ 3250 4850
-Wire Wire Line
-	2750 4150 2750 4750
-Wire Wire Line
-	2750 4750 3350 4750
-Wire Wire Line
-	3350 4150 3350 4750
-Connection ~ 3350 4750
 NoConn ~ 2450 4150
 NoConn ~ 2550 4150
 NoConn ~ 2850 4150
@@ -740,13 +726,9 @@ Connection ~ 7700 3500
 Wire Wire Line
 	5950 4750 5950 3500
 Wire Wire Line
-	3350 4750 5950 4750
-Wire Wire Line
 	5950 3500 7700 3500
 Wire Wire Line
 	6050 4850 6050 4100
-Wire Wire Line
-	3250 4850 6050 4850
 Wire Wire Line
 	6050 4100 7700 4100
 Text GLabel 9600 3000 1    50   Input ~ 0
@@ -1243,4 +1225,22 @@ F 5 "LT1964ES5-5#TRPBF" H 9550 5650 50  0001 C CNN "PN"
 	1    9550 5650
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	3250 4150 3250 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	3250 4750 5950 4750
+Wire Wire Line
+	3350 4150 3350 4850
+Connection ~ 3350 4850
+Wire Wire Line
+	3350 4850 6050 4850
+Wire Wire Line
+	2650 4150 2650 4750
+Wire Wire Line
+	2650 4750 3250 4750
+Wire Wire Line
+	2750 4150 2750 4850
+Wire Wire Line
+	2750 4850 3350 4850
 $EndSCHEMATC
