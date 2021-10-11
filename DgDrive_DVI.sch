@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Laser Backplane Diode DVI"
-Date "2021-07-23"
-Rev "1.5"
+Date "2021-10-07"
+Rev "1.6"
 Comp "APQ"
 Comment1 "Tilman Preuschoff & Patrick Baus"
 Comment2 ""
@@ -339,22 +339,7 @@ F 5 "RR0816Q-49R9-D-68R" V 8050 3500 50  0001 C CNN "PN"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7950 4100 7700 4100
-Wire Wire Line
 	7950 3500 7700 3500
-$Comp
-L Device:R_Small R6
-U 1 1 5DF25AA7
-P 8050 4100
-F 0 "R6" V 7854 4100 50  0000 C CNN
-F 1 "49.9" V 7945 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8050 4100 50  0001 C CNN
-F 3 "~" H 8050 4100 50  0001 C CNN
-F 4 "Susumu" V 8050 4100 50  0001 C CNN "MFN"
-F 5 "RR0816Q-49R9-D-68R" V 8050 4100 50  0001 C CNN "PN"
-	1    8050 4100
-	0    1    1    0   
-$EndComp
 Text GLabel 3650 4300 3    50   Input ~ 0
 V_diode+
 Text GLabel 3750 4300 3    50   Input ~ 0
@@ -429,8 +414,6 @@ F 4 "DNF" H 9900 4100 50  0001 C CNN "Config"
 	1    9900 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 4100 8450 4100
 Wire Wire Line
 	9300 3800 9250 3800
 Wire Wire Line
@@ -686,31 +669,6 @@ F 5 "XGL5050-333MEC" V 8050 3200 50  0001 C CNN "PN"
 	1    8050 3200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:L_Small L2
-U 1 1 604BF8B4
-P 8050 4400
-F 0 "L2" V 8235 4400 50  0000 C CNN
-F 1 "33u" V 8144 4400 50  0000 C CNN
-F 2 "custom:Coilcraft_XGL5050" H 8050 4400 50  0001 C CNN
-F 3 "~" H 8050 4400 50  0001 C CNN
-F 4 "Coilcraft" V 8050 4400 50  0001 C CNN "MFN"
-F 5 "XGL3530-333MEC" V 8050 4400 50  0001 C CNN "PN"
-	1    8050 4400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8150 4400 8450 4400
-Wire Wire Line
-	8450 4400 8450 4100
-Connection ~ 8450 4100
-Wire Wire Line
-	8450 4100 8650 4100
-Wire Wire Line
-	7950 4400 7700 4400
-Wire Wire Line
-	7700 4400 7700 4100
-Connection ~ 7700 4100
 Wire Wire Line
 	8450 3200 8450 3500
 Wire Wire Line
@@ -729,8 +687,6 @@ Wire Wire Line
 	5950 3500 7700 3500
 Wire Wire Line
 	6050 4850 6050 4100
-Wire Wire Line
-	6050 4100 7700 4100
 Text GLabel 9600 3000 1    50   Input ~ 0
 Curr_Mod
 Wire Wire Line
@@ -1272,26 +1228,6 @@ Wire Wire Line
 	9600 4750 9600 4650
 Wire Wire Line
 	9600 4450 9600 4100
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 61163CD2
-P 8050 4650
-F 0 "JP1" H 8050 4465 50  0000 C CNN
-F 1 "No_L" H 8050 4556 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8050 4650 50  0001 C CNN
-F 3 "~" H 8050 4650 50  0001 C CNN
-F 4 "DNF" V 8050 4650 50  0001 C CNN "Config"
-	1    8050 4650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	8150 4650 8450 4650
-Wire Wire Line
-	8450 4650 8450 4400
-Connection ~ 8450 4400
-Wire Wire Line
-	7950 4650 7700 4650
-Wire Wire Line
-	7700 4650 7700 4400
-Connection ~ 7700 4400
+	6050 4100 8650 4100
 $EndSCHEMATC
