@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Laser Backplane Diode DVI"
-Date "2021-10-07"
+Date "2021-11-02"
 Rev "1.6"
 Comp "APQ"
 Comment1 "Tilman Preuschoff & Patrick Baus"
@@ -370,7 +370,7 @@ U 1 1 5E87DEF9
 P 9150 1150
 F 0 "J5" H 9068 925 50  0000 C CNN
 F 1 "Pz+" H 9068 1016 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 9150 1150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 9150 1150 50  0001 C CNN
 F 3 "~" H 9150 1150 50  0001 C CNN
 F 4 "DNF" H 9150 1150 50  0001 C CNN "Config"
 	1    9150 1150
@@ -382,7 +382,7 @@ U 1 1 5E87E3D8
 P 9150 1500
 F 0 "J6" H 9068 1275 50  0000 C CNN
 F 1 "Pz-" H 9068 1366 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 9150 1500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5015_Micro-Minature" H 9150 1500 50  0001 C CNN
 F 3 "~" H 9150 1500 50  0001 C CNN
 F 4 "DNF" H 9150 1500 50  0001 C CNN "Config"
 	1    9150 1500
