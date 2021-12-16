@@ -1,0 +1,40 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,PN,Config,Note
+1,"Unpolarized capacitor, small symbol",C_Small,C4,1.5p,C_0603_1608Metric,1,~,Yageo,CC0603CPNPO9BN1R5,,
+2,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C6 C8 C11,10n,C_0603_1608Metric,5,~,Kemet Murata Electronics,C0603C103K2RECAUTO GRM1885C1H103JA01J,,
+3,"Unpolarized capacitor, small symbol",C_Small,C7 C9 C10 C12,4.7u,C_0805_2012Metric,4,~,Murata Electronics,GRM21BR61H475KE51L,,
+4,Polarized capacitor,CP,C3,47u,CP_Radial_D5.0mm_P2.00mm,1,,Nichicon,UHV1V470MDD,,
+5,Diode,D,D1,BAS21GWX,D_SOD-123,1,~,Nexperia,BAS21GWX,,
+6,Schottky diode,D_Schottky,D2,BAT54,D_SOT-23_ANK,1,,STMicroelectronics,BAT54SFILMY,,Use a low Vf Schottky
+7,Light emitting diode,LED,D4,Green,LED_D3.0mm_FlatTop,1,~,Kingbright,WP424GDT,,
+8,"Ferrite bead, small symbol",Ferrite_Bead_Small,FB1 FB2,BLM18KG102SZ1D,L_0603_1608Metric,2,~,Murata,BLM18KG102SZ1D,,
+9,DVI-I dual link connector,DVI-I,J2,DVI-I,DVI-I_Conn_Link_CDVI-F29VDG1-P1,1,,Conn_Link,CDVI-F29VDG1-P1,,
+10,"Omron Low Signal Relay, Single-winding latching type",G6AU,K1,G6AU,Relay_SPDT_OMRON-G6A,1,,Omron,G6AU-274P-ST-US-DC9,,
+11,"Inductor, small symbol",L_Small,L1,33u,Coilcraft_XGL5050,1,~,Coilcraft,XGL5050-333MEC,,
+12,"NPN transistor, emitter/base/collector",Q_NPN_EBC,Q2,2N4401,TO-92_Inline_Horizontal1,1,~,ON Semiconductor,2N4401BU,,
+13,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23",MMBT3904,Q1,MMBT3904,SOT-23,1,https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf,Nexperia,MMBT3904VL,,
+14,"Resistor, small symbol",R_Small,R4,10,R_0603_1608Metric,1,~,Susumu,RR0816Q-100-D,,
+15,Resistor,R,R3,100k,R_0603_1608Metric,1,,Susumu,RR0816P-104-D,,
+16,Resistor,R,R5 R6 R7 R8,1k,R_0603_1608Metric,4,~,Susumu,RR0816P-102-D,,
+17,"Resistor, small symbol",R_Small,R9,4.7,R_0603_1608Metric,1,~,Panasonic,ERJ-3RQF4R7V,,
+18,"Resistor, small symbol",R_Small,R1,49.9,R_0603_1608Metric,1,~,Susumu,RR0816Q-49R9-D-68R,,
+19,"Resistor, small symbol",R_Small,R2,49.9,R_1210_3225Metric,1,~,Yageo,RC1210FR-0749R9L,,
+20,"4 resistor network, parallel topology, split",R_Pack04_Split,RN1,1k,MSOP-8_3x3mm_P0.65mm_mod,1,,Vishay,MORNTA1001AT5,,
+21,"Dual Rail-to-Rail Input/Output Amplifiers, MSOP-8",ADA4807-2ARM,U1,ADA4807-2ARM,MSOP-8_3x3mm_P0.65mm_mod,1,https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf,Analog Devices,ADA4807-2ARMZ,,
+22,"MICROPOWER Low Noise 5V 100mA LDO regulator, TSOT-23-5",LT1761-5,U2,LT1761-5,TSOT-23-5,1,https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf,Linear Technology,LT1761ES5-5#TRPBF,,
+23,"MICROPOWER 200mA Low Noise LDO negative regulator, fixed output -5V, TSOT-23-5",LT1964-5,U3,LT1964-5,TSOT-23-5,1,https://www.analog.com/media/en/technical-documentation/data-sheets/1964fb.pdf,Linear Technology,LT1964ES5-5#TRPBF,,
+
+
+
+
+
+Component Groups:,30
+Component Count:,42
+Fitted Components:,34
+Number of PCBs:,1
+Total components:,34
+Schematic Version:,1.7
+Schematic Date:,2021-12-16
+PCB Variant:,[u'default']
+BoM Date:,16.12.2021 14:49:57
+Schematic Source:,C:\Users\Tilman Preuschoff\Documents\GitHub\Laser_Backplane_DgDrive_DVI\DgDrive_DVI.sch
+KiCad Version:,Eeschema (5.1.9)-1
