@@ -320,7 +320,7 @@
       (net 20 "Net-(K1-Pad13)") (pintype "passive") (tstamp 5cf2db29-f7ab-499a-9907-cdeba64bf0f3))
     (pad "16" thru_hole circle locked (at 0 -7.62 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 3 "Net-(D2-Pad2)") (pintype "passive") (tstamp feb26ecb-9193-46ea-a41b-d09305bf0a3e))
-    (model "${KIPRJMOD}/3D-models/G6AU_274P_ST_US.step"
+    (model "${KIPRJMOD}/3D-models/G6AU_274P_ST_US.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3735,8 +3735,8 @@
       (net 22 "unconnected-(J2-PadSH)") (pinfunction "SH") (pintype "passive+no_connect") (tstamp eae0ab9f-65b2-44d3-aba7-873c3227fba7))
     (pad "SH" thru_hole circle locked (at -16.255 0 180) (size 4.2 4.2) (drill 3) (layers *.Cu *.Mask)
       (net 22 "unconnected-(J2-PadSH)") (pinfunction "SH") (pintype "passive+no_connect") (tstamp f449bd37-cc90-4487-aee6-2a20b8d2843a))
-    (model "${KIPRJMOD}/3D-models/74320-3004.stp"
-      (offset (xyz 0 0 4.5))
+    (model "${KIPRJMOD}/3D-models/DVI_connector.stp"
+      (offset (xyz 18.8 -4.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
