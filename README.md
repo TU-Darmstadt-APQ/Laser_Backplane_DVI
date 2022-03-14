@@ -1,7 +1,7 @@
 Laser Head with fast Modulation Input
 ===================
 
-This repository contains the [KiCad 6](https://www.kicad.org/) design files for a compact laser head with a DVI connector for application in an ECDL laser system. The laser head features a fast current modulation input designed for large bandwidth laser frequency stabilization and a laser diode protection circuit. An additional connector for the laser piezo is available.
+This repository contains the [KiCad 6](https://www.kicad.org/) design files for a compact laser backplane with a DVI connector for application in an ECDL laser system. The laser backplane features a fast current modulation input designed for large-bandwidth laser-frequency stabilization and a laser diode protection circuit. An additional connector for the laser piezo actuator is available.
 
 
 ![RedPitaya_Lockbox](img/LaserBackplane_DVI_front.png)
@@ -19,12 +19,12 @@ Fast Current Modulation
 --------------------
 The fast modulation input consists of a Howland Current Pump complemented by a passive impedance matching network (see related work for details). It features:
 - 3 dB gain flatness DC to 100 MHz
-- Usable bandwidth of 25 MHz (90° phase margin)
+- Phase lag below 90° up to 25 MHz
 - Transconductance gain of 1 mA / V
-- Input voltage range ±4.9 V
+- Input voltage range ±4.8 V
 
-**Note on Laser diode compliance voltage**
-The Howland Current Pump configuration requires the operational amplifier to provide twice the voltage at the laser diode anode. The circuit is implemented by a rail-to-rail output operational amplifier (ADA4807) supplied by ±5 V. Hence, the voltage at the laser diode anode is limited to 2.4 V accounting for a small head-room. Some additional head-room should be reserved for the (small) rise of the voltage required for the maximal output of the current source (5 mA). The maximal laser diode anode voltage might be suffiecient as a compliance voltage for infra-red laser diodes. However, it is recommended to use a current driver that sinks the laser diode forward current at the cathode resulting in a low voltage at the anode.     
+**Note on the compliance voltage**
+The compliance voltage of the Howland Current Pump is half of the positive output voltage swing of the operational amplifier. The circuit is implemented by a rail-to-rail output operational amplifier (ADA4807) supplied by ±5 V. Hence, the voltage at the laser diode anode is limited to 2.4 V accounting for a small head-room. Some additional head-room should be reserved for the (small) rise of the voltage required for the maximal output of the current source (5 mA). The maximal laser diode anode voltage is sufficient as a compliance voltage for infra red laser diodes. 
 
 Pin Configuration
 --------------------
@@ -55,7 +55,7 @@ Connector: DVI-I Dual Link (female)
 Related Work
 --------------------
 
-To be published
+[arXiv:2203.06097](https://arxiv.org/abs/2203.06097) [physics.optics]
 
 
 License
