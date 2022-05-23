@@ -8,7 +8,7 @@
     (title "Laser Backplane Diode DVI")
     (date "2021-12-16")
     (rev "1.7")
-    (company "APQ")
+    (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff & Patrick Baus")
   )
 
@@ -2160,7 +2160,6 @@
       )
     )
   )
-
 
   (junction (at 85.09 125.73) (diameter 0) (color 0 0 0 0)
     (uuid 082aed28-f9e8-49e7-96ee-b5aa9f0319c7)
