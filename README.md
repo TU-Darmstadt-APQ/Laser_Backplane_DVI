@@ -55,7 +55,9 @@ Connector: DVI-I Dual Link (female)
 Related Work
 --------------------
 
-[arXiv:2203.06097](https://arxiv.org/abs/2203.06097) [physics.optics]
+Review of Scientific Instruments **93**, 063002 (2022); https://doi.org/10.1063/5.0093520
+
+arXiv:2203.06097 [physics.optics]; [https://arxiv.org/abs/2203.06097](https://arxiv.org/abs/2203.06097)
 
 
 License
