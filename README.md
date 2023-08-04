@@ -59,6 +59,8 @@ Review of Scientific Instruments **93**, 063002 (2022); https://doi.org/10.1063/
 
 arXiv:2203.06097 [physics.optics]; [https://arxiv.org/abs/2203.06097](https://arxiv.org/abs/2203.06097)
 
+T. Preuschoff, *Laser Technologies for Applications in Quantum Information Science*, Ph.D. thesis, TU Darmstadt, 2023, [https://tuprints.ulb.tu-darmstadt.de/23242/](https://tuprints.ulb.tu-darmstadt.de/23242/)
+
 
 License
 -------
