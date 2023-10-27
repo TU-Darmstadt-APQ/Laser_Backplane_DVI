@@ -19,8 +19,8 @@ on:
       - published
 
 env:
-  SCHEMATIC_FILE: KiCad/RedPitaya_Lockbox.kicad_sch
-  PCB_FILE: KiCad/RedPitaya_Lockbox.kicad_pcb
+  SCHEMATIC_FILE: KiCad/LaserBackplane_DVI.kicad_sch
+  PCB_FILE: KiCad/LaserBackplane_DVI.kicad_pcb
   KIBOT_CONFIG: KiCad/config.kibot.yaml
 
 jobs:
