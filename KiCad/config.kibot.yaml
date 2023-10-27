@@ -9,8 +9,8 @@ preflight:
   filters:
     - filter: 'DVI connector DNC pins'
       error: unconnected_items
-      regex: 'unconnected-(J\d+-PadC5)'
-      regex: 'unconnected-(J\d+-PadSH)'
+      regex: 'unconnected-\(J\d+-PadC5\)'
+      regex: 'unconnected-\(J\d+-PadSH\)'
 
 variants:
   - name: 'default'
