@@ -6,10 +6,15 @@ preflight:
   run_erc: true
   update_xml: true
   ignore_unconnected: false
+  filters:
+    - filter: 'DVI connector DNC pins'
+      error: unconnected_items
+      regex: 'unconnected-(J\d+-PadC5)'
+      regex: 'unconnected-(J\d+-PadSH)'
 
 variants:
   - name: 'default'
-    comment: 'Minimal PCB without EMI shield'
+    comment: 'PCB with all components'
     type: kibom
     file_id: _(default)
 
