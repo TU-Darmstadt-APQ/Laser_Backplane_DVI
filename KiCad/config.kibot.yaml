@@ -7,9 +7,11 @@ preflight:
   update_xml: true
   ignore_unconnected: false
   filters:
-    - filter: 'DVI connector DNC pins'
+    - filter: 'GNDA is unconnected'
       error: unconnected_items
       regex: 'unconnected-\(J\d+-PadC5\)'
+    - filter: 'Shield is unconnected'
+      error: unconnected_items
       regex: 'unconnected-\(J\d+-PadSH\)'
 
 variants:
