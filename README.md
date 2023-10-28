@@ -1,3 +1,5 @@
+[![Build manufacturing files](https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI/actions/workflows/ci.yml)
+
 Laser Head with fast Modulation Input
 ===================
 
