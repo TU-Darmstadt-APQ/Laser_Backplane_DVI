@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "Laser Backplane Diode DVI")
-    (date "2022-01-25")
-    (rev "1.7")
+    (date "2023-11-02")
+    (rev "1.7.2")
     (company "APQ")
     (comment 1 "Tilman Preuschoff & Patrick Baus")
   )
