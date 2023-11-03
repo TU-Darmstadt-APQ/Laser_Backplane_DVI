@@ -54,6 +54,19 @@ Connector: DVI-I Dual Link (female)
 |  C1 to C5	| NC			| 				|
 |  SH		| NC			| 	Connect the shield to the laser case only			|
 
+
+Design Files
+------------------
+The design files can be found on the [releases](../../releases) page and include the following resources:
+
+- Schematics as a PDF
+- Gerber files
+- Pick & place position files
+- Bill of materials as a CSV file and also as an interactive HTML version
+
+The latest revision of those files can be found [here](../../releases/latest).
+
+
 Related Work
 --------------------
 
