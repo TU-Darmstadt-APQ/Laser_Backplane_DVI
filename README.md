@@ -3,7 +3,7 @@
 Laser Head with fast Modulation Input
 ===================
 
-This repository contains the [KiCad 6](https://www.kicad.org/) design files for a compact laser backplane with a DVI connector for application in an ECDL laser system. The laser backplane features a fast current modulation input designed for large-bandwidth laser-frequency stabilization and a laser diode protection circuit. An additional connector for the laser piezo actuator is available.
+This repository contains the [KiCad](https://www.kicad.org/) design files for a compact laser backplane with a DVI connector for application in an ECDL laser system. The laser backplane features a fast current modulation input designed for large-bandwidth laser-frequency stabilization and a laser diode protection circuit. An additional connector for the laser piezo actuator is available.
 
 
 ![RedPitaya_Lockbox](img/LaserBackplane_DVI_front.png)
