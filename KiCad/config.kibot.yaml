@@ -16,10 +16,13 @@ preflight:
 
 variants:
   - name: 'default'
-    comment: 'PCB with all components'
+    comment: 'PCB without current modulation circuit'
     type: kibom
     file_id: _(default)
-
+  - name: 'curr_mod'
+    comment: 'PCB with all components'
+    type: kibom
+    file_id: _(curr_mod)
 outputs:
   - name: 'gerbers'
     comment: 'Create the Gerber files for the board house'
