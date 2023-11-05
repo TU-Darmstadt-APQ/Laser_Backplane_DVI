@@ -1,6 +1,7 @@
 (sym_lib_table
-  (lib (name "Molex")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex.kicad_sym")(options "")(descr ""))
-  (lib (name "Omron_G6AU")(type "KiCad")(uri "${KIPRJMOD}/lib/Omron_G6AU.kicad_sym")(options "")(descr ""))
-  (lib (name "Custom_logos")(type "KiCad")(uri "${KIPRJMOD}/lib/Custom_logos.kicad_sym")(options "")(descr ""))
-  (lib (name "Microchip")(type "KiCad")(uri "${KIPRJMOD}/lib/Microchip.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "Molex")(type "KiCad")(uri "${KIPRJMOD}/libraries/Molex.kicad_sym")(options "")(descr ""))
+  (lib (name "Omron_G6AU")(type "KiCad")(uri "${KIPRJMOD}/libraries/Omron_G6AU.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom_logos")(type "KiCad")(uri "${KIPRJMOD}/libraries/Custom_logos.kicad_sym")(options "")(descr ""))
+  (lib (name "Microchip")(type "KiCad")(uri "${KIPRJMOD}/libraries/Microchip.kicad_sym")(options "")(descr ""))
 )
