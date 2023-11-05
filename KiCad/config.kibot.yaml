@@ -15,7 +15,7 @@ preflight:
       regex: 'unconnected-\(J\d+-PadSH\)'
     - filter: 'Custom 3D models were added to the footprints'
       error: lib_footprint_mismatch
-      regex: 'SMA_Amphenol_901-144_Vertical|DVI-I_Conn_Link_CDVI-F29VDG1-P1|Relay_SPDT_OMRON-G6A'
+      regex: 'SMA_Amphenol_901-144_Vertical|DVI-I_Conn_Link_CDVI-F29VDG1-P1|Relay_SPDT_OMRON-G6A|Coilcraft_XGL5050'
 
 variants:
   - name: 'default'
