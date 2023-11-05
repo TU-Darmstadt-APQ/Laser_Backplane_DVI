@@ -3818,7 +3818,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bba03348-ba6e-424a-8f39-d4194c602949)
     )
-    (fp_text value "33u" (at 0 4.65 -90) (layer "F.Fab")
+    (fp_text value "33u" (at 0 4.65 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 92a48d78-4358-4b9d-bc22-86af86fa3e6c)
     )
@@ -3844,6 +3844,11 @@
       (net 52 "Ld+") (pintype "passive") (tstamp d0a55bab-0030-4571-8956-c18b4e671fea))
     (pad "2" smd roundrect (at 3.3 0 270) (size 1.2 4.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 45 "Curr_Mod") (pintype "passive") (tstamp 16f81c10-6b08-40b0-bf1c-66500a1610d9))
+    (model "${KIPRJMOD}/3D-models/Coilcraft-XAL5050.STEP"
+      (offset (xyz 1.65 -0.05 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (layer "F.Cu")
