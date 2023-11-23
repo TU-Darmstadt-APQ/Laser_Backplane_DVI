@@ -12,7 +12,6 @@ authors:
   - given-names: Patrick
     family-names: Baus
     email: patrick.baus@physik.tu-darmstadt.de
-    name-particle: Patrick
     affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
     orcid: 'https://orcid.org/0000-0002-0318-5245'
 repository-code: 'https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI'
@@ -31,9 +30,16 @@ preferred-citation:
     - given-names: Patrick
       family-names: Baus
       email: patrick.baus@physik.tu-darmstadt.de
-      name-particle: Patrick
       affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
       orcid: 'https://orcid.org/0000-0002-0318-5245'
+    - given-names: Malte
+      family-names: Schlosser
+      affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
+      orcid: 'https://orcid.org/0000-0001-9004-5664'
+    - given-names: Gerhard
+      family-names: Birkl
+      affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
+      orcid: 'https://orcid.org/0000-0002-4137-9227'
   url: 'https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI'
   doi: 10.1063/5.0093520
   journal: "Review of Scientific Instruments"
