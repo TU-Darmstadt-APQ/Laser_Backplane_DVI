@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+title: Laser Head with fast Modulation Input
+message: >-
+  If you use this software, please cite both the article
+  from preferred-citation and the design itself.
+type: software
+authors:
+  - given-names: Tilman
+    family-names: Preuschoff
+    affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
+    orcid: 'https://orcid.org/0000-0001-6158-6939'
+  - given-names: Patrick
+    family-names: Baus
+    email: patrick.baus@physik.tu-darmstadt.de
+    name-particle: Patrick
+    affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
+    orcid: 'https://orcid.org/0000-0002-0318-5245'
+repository-code: 'https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI'
+license: CERN-OHL-1.2
+version: 1.7.3
+date-released: '2023-11-20'
+preferred-citation:
+  title: Wideband current modulation of diode lasers for
+      frequency stabilization
+  type: article
+  authors:
+    - given-names: Tilman
+      family-names: Preuschoff
+      affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
+      orcid: 'https://orcid.org/0000-0001-6158-6939'
+    - given-names: Patrick
+      family-names: Baus
+      email: patrick.baus@physik.tu-darmstadt.de
+      name-particle: Patrick
+      affiliation: 'TU Darmstadt, Institut für Angewandte Physik'
+      orcid: 'https://orcid.org/0000-0002-0318-5245'
+  url: 'https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI'
+  doi: 10.1063/5.0093520
+  journal: "Review of Scientific Instruments"
+  volume: 93
+  number: 6
+  pages: 063002
+  year: 2022
+  month: 6
+  abstract: "We present a current modulation technique for diode laser systems, which is specifically designed for high-bandwidth laser frequency stabilization and wideband frequency modulation with a flat transfer function. It consists of a dedicated current source and an impedance matching circuit both placed close to the laser diode. The transfer behavior of the system is analyzed under realistic conditions employing an external cavity diode laser (ECDL) system. We achieve a phase lag smaller than 90° up to 25 MHz and a gain flatness of ±3 dB in the frequency range of DC to 100 MHz, while the passive stability of the laser system is not impaired. The potential of the current modulation scheme is demonstrated in an optical phase-locked loop between two ECDL systems with a phase noise of 42 mradrms. The design files are available as an open-source project."
+  issn: "0034-6748"
