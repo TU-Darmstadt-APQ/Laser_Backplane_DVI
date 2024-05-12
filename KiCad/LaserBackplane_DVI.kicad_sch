@@ -8121,7 +8121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Nichicon"
+		(property "MFN" "Würth Elektronik"
 			(at 124.46 30.48 0)
 			(effects
 				(font
@@ -8130,7 +8130,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "UHV1V470MDD"
+		(property "PN" "860040572002"
 			(at 124.46 30.48 0)
 			(effects
 				(font
@@ -8208,7 +8208,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Susumu"
+		(property "MFN" "Vishay"
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -8217,7 +8217,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RR0816P-104-D"
+		(property "PN" "CRCW0603100KFKEA"
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -8401,7 +8401,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RR0816P-102-D"
+		(property "PN" "RG1608P-102-D-T5"
 			(at 165.1 52.07 0)
 			(effects
 				(font
@@ -10290,7 +10290,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RR0816P-102-D"
+		(property "PN" "RG1608P-102-D-T5"
 			(at 198.12 77.47 0)
 			(effects
 				(font
@@ -10377,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RR0816P-102-D"
+		(property "PN" "RG1608P-102-D-T5"
 			(at 198.12 102.87 0)
 			(effects
 				(font
@@ -13792,7 +13792,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000061cc49a9")
 		(property "Reference" "C5"
 			(at 41.91 166.37 0)
@@ -13840,6 +13840,24 @@
 			)
 		)
 		(property "Config" "DNF"
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 46.99 166.37 0)
 			(effects
 				(font
@@ -13991,7 +14009,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RR0816P-102-D"
+		(property "PN" "RG1608P-102-D-T5"
 			(at 43.18 161.29 0)
 			(effects
 				(font
