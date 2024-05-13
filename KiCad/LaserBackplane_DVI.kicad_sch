@@ -15310,6 +15310,24 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "+curr_mod"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "curr_mod"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "RoHS" "Yes"
 			(at 146.05 184.15 0)
 			(effects
@@ -15566,6 +15584,24 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "+curr_mod"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "variant" "curr_mod"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
