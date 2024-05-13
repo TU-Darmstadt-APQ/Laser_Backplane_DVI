@@ -606,6 +606,24 @@
           "label": "Sim.Enable",
           "name": "Sim.Enable",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature",
+          "name": "Temperature",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "RoHS",
+          "name": "RoHS",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
         }
       ],
       "filter_string": "",
