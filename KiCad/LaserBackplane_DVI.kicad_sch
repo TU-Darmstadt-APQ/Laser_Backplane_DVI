@@ -1606,8 +1606,8 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "#LOGO"
-				(at 6.35 6.985 0)
+			(property "Reference" "#SYM"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1616,7 +1616,7 @@
 				)
 			)
 			(property "Value" "Logo_APQ"
-				(at 6.35 -6.35 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1625,7 +1625,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 7.62 0 0)
+				(at -6.35 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 7.62 0 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1671,7 +1671,7 @@
 			)
 			(symbol "Logo_APQ_0_0"
 				(text "APQ"
-					(at 17.78 0 0)
+					(at 3.81 0 0)
 					(effects
 						(font
 							(size 3.81 3.81)
@@ -1682,7 +1682,7 @@
 			)
 			(symbol "Logo_APQ_0_1"
 				(circle
-					(center 5.08 0)
+					(center -8.89 0)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1693,7 +1693,7 @@
 					)
 				)
 				(circle
-					(center 5.08 2.54)
+					(center -8.89 2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1704,7 +1704,7 @@
 					)
 				)
 				(circle
-					(center 7.62 0)
+					(center -6.35 0)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1715,7 +1715,7 @@
 					)
 				)
 				(circle
-					(center 7.62 2.54)
+					(center -6.35 2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1726,7 +1726,7 @@
 					)
 				)
 				(circle
-					(center 10.16 2.54)
+					(center -3.81 2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1739,7 +1739,7 @@
 			)
 			(symbol "Logo_APQ_1_1"
 				(circle
-					(center 5.08 -2.54)
+					(center -8.89 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1750,7 +1750,7 @@
 					)
 				)
 				(circle
-					(center 7.62 -2.54)
+					(center -6.35 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1761,7 +1761,7 @@
 					)
 				)
 				(circle
-					(center 10.16 -2.54)
+					(center -3.81 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1772,7 +1772,7 @@
 					)
 				)
 				(circle
-					(center 10.16 0)
+					(center -3.81 0)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1780,6 +1780,230 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Custom_logos:SYM_RoHS"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_RoHS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RoHS (Restriction of Hazardous Substances Directive) logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol logo rohs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RoHS?Logo*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_RoHS_1_0"
+				(text "RoHS"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 3.81 3.81)
+							(bold yes)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2240,9 +2464,10 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky_AKK"
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2254,7 +2479,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky_AKK"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2280,7 +2505,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode, cathode on pins 2 and 3"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2289,7 +2514,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky SCHDPAK"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2307,21 +2532,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_AKK_0_1"
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 0) (xy 2.54 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2356,11 +2570,11 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_AKK_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
-					(at 5.08 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2376,9 +2590,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 2.54 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2386,24 +2600,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5251,6 +5447,12 @@
 		)
 	)
 	(junction
+		(at 135.89 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00652e12-da18-4052-bf9d-8bf4314d49e8")
+	)
+	(junction
 		(at 85.09 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5497,6 +5699,12 @@
 		(uuid "efd7a1e0-5bed-4583-a94e-5ccec9e4eb74")
 	)
 	(junction
+		(at 135.89 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f917c59b-3c51-4ec5-b17c-c2329ae5a4b1")
+	)
+	(junction
 		(at 198.12 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5531,10 +5739,6 @@
 	(no_connect
 		(at 133.35 87.63)
 		(uuid "5c7d6eaf-f256-4349-8203-d2e836872231")
-	)
-	(no_connect
-		(at 85.09 58.42)
-		(uuid "66f06d4f-3f9c-4cf4-b4a4-c9ffb1451480")
 	)
 	(no_connect
 		(at 72.39 105.41)
@@ -5628,6 +5832,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 152.4) (xy 135.89 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022e20fc-8643-4873-b017-4010eec57512")
+	)
+	(wire
+		(pts
 			(xy 46.99 128.27) (xy 118.11 128.27)
 		)
 		(stroke
@@ -5678,6 +5892,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 161.29) (xy 146.05 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e85a78d-d303-4800-877c-6a9368fdcf92")
+	)
+	(wire
+		(pts
 			(xy 24.13 90.17) (xy 24.13 92.71)
 		)
 		(stroke
@@ -5688,7 +5912,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 128.27) (xy 33.02 128.27)
+			(xy 31.75 128.27) (xy 36.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6028,6 +6252,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 180.34) (xy 146.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b409d86-65f0-4cf3-b5eb-541824dcb2e5")
+	)
+	(wire
+		(pts
 			(xy 105.41 168.91) (xy 100.33 168.91)
 		)
 		(stroke
@@ -6175,6 +6409,16 @@
 			(type default)
 		)
 		(uuid "4a53fa56-d65b-42a4-a4be-8f49c4c015bb")
+	)
+	(wire
+		(pts
+			(xy 146.05 187.96) (xy 146.05 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab3d6d7-5fc3-4118-90dd-a4389ee9ee10")
 	)
 	(wire
 		(pts
@@ -6378,7 +6622,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 163.83) (xy 144.78 168.91)
+			(xy 135.89 148.59) (xy 135.89 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6395,6 +6639,16 @@
 			(type default)
 		)
 		(uuid "6a0919c2-460c-4229-b872-14e318e1ba8b")
+	)
+	(wire
+		(pts
+			(xy 146.05 179.07) (xy 135.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2ac20f-dfff-4a08-9054-5cc1116d8275")
 	)
 	(wire
 		(pts
@@ -6488,7 +6742,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 85.09 60.96)
+			(xy 83.82 60.96) (xy 87.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6548,6 +6802,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 153.67) (xy 146.05 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826bb054-4320-4466-b90b-2f312dcdfbe3")
+	)
+	(wire
+		(pts
 			(xy 189.23 97.79) (xy 198.12 97.79)
 		)
 		(stroke
@@ -6568,7 +6832,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 128.27) (xy 46.99 128.27)
+			(xy 41.91 128.27) (xy 46.99 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6928,16 +7192,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 60.96) (xy 97.79 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfbd2c64-455a-4013-af63-ef021ff58b39")
-	)
-	(wire
-		(pts
 			(xy 123.19 105.41) (xy 123.19 109.22)
 		)
 		(stroke
@@ -6975,6 +7229,16 @@
 			(type default)
 		)
 		(uuid "c401e9c6-1deb-4979-99be-7c801c952098")
+	)
+	(wire
+		(pts
+			(xy 135.89 179.07) (xy 135.89 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c606f8f0-f5cd-4dc8-b6ec-9fb415d358a0")
 	)
 	(wire
 		(pts
@@ -7208,6 +7472,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 60.96) (xy 97.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81834b9-70aa-4fa3-ae55-ac2f232de1ef")
+	)
+	(wire
+		(pts
 			(xy 46.99 172.72) (xy 46.99 168.91)
 		)
 		(stroke
@@ -7358,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 184.15) (xy 144.78 190.5)
+			(xy 135.89 176.53) (xy 135.89 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7375,6 +7649,16 @@
 			(type default)
 		)
 		(uuid "fb35e3b1-aff6-41a7-9cf0-52694b95edeb")
+	)
+	(wire
+		(pts
+			(xy 135.89 152.4) (xy 135.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc15085b-e36e-4122-907f-c5488e758d89")
 	)
 	(wire
 		(pts
@@ -7428,16 +7712,16 @@
 		)
 		(uuid "27b2eb82-662b-42d8-90e6-830fec4bb8d2")
 	)
-	(text "3"
+	(text "Warning: 150 V max input.\nClearance > 0.7 mm, see IPC-2221B\nhttps://www.smpspowersupply.com/ipc2221pcbclearance.html"
 		(exclude_from_sim no)
-		(at 87.63 64.77 0)
+		(at 219.71 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "77198a6e-ab99-48e5-bfab-5122721a925e")
+		(uuid "669d2660-5c41-430e-b532-c6c149a208e7")
 	)
 	(text "Close JP2 for GND referenced laser current drivers. \nFor floating devices, C6 is used to provide a low\nimpedance node for the current modulation at \nhigh frequencies. R9 guarantees stability of the \ndriver under capacitivte load."
 		(exclude_from_sim no)
@@ -7494,7 +7778,7 @@
 		)
 		(uuid "ae0e6b31-27d7-4383-a4fc-7557b0a19382")
 	)
-	(text "The R7 and R8 resistors are for protection."
+	(text "Resistors R7 and R8 are for protection."
 		(exclude_from_sim no)
 		(at 200.66 78.74 0)
 		(effects
@@ -7505,16 +7789,15 @@
 		)
 		(uuid "c8ab8246-b2bb-4b06-b45e-2548482466fd")
 	)
-	(text "1"
+	(text "As per IEC61010. There *must* be a label on the case to warn the user."
 		(exclude_from_sim no)
-		(at 93.98 64.77 0)
+		(at 241.3 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "df901915-6d3d-4d7a-a535-e9659918f55a")
+		(uuid "f1ac3507-029b-4918-bf47-aebcef34795b")
 	)
 	(global_label "-5V"
 		(shape output)
@@ -7694,7 +7977,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 144.78 163.83 90)
+		(at 135.89 148.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7704,7 +7987,7 @@
 		)
 		(uuid "3f2a6679-91d7-4b6c-bf5c-c4d5abb2bc44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 157.6285 90)
+			(at 135.89 142.3885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +8109,7 @@
 	)
 	(global_label "-5V"
 		(shape input)
-		(at 144.78 190.5 270)
+		(at 135.89 182.88 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7836,7 +8119,7 @@
 		)
 		(uuid "a3fab380-991d-404b-95d5-1c209b047b6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 196.7015 90)
+			(at 135.89 189.0815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,6 +8422,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 105 °C"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd4fa562-7c63-4ba1-a524-a8c37a94cc49")
 		)
@@ -8226,6 +8527,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "By exemption"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41b7fab5-f369-4bf2-8d9b-8af15444ec5f")
 		)
@@ -8236,103 +8555,6 @@
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_AKK")
-		(at 91.44 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005934292b")
-		(property "Reference" "D2"
-			(at 91.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54"
-			(at 91.44 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, cathode on pins 2 and 3"
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "STMicroelectronics"
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "BAT54SFILMY"
-			(at 91.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Use a low Vf Schottky"
-			(at 91.44 60.96 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b15ee249-1e21-4b12-882d-2d83156f04b0")
-		)
-		(pin "2"
-			(uuid "612806df-17b6-4af5-893d-544c459b34b6")
-		)
-		(pin "3"
-			(uuid "122ac15c-154c-4470-a41a-d5ed4997f8e0")
-		)
-		(instances
-			(project "LaserBackplane_DVI"
-				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8402,6 +8624,24 @@
 			)
 		)
 		(property "PN" "RG1608P-102-D-T5"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
 			(at 165.1 52.07 0)
 			(effects
 				(font
@@ -8489,6 +8729,24 @@
 			)
 		)
 		(property "PN" "WP424GDT"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 85 °C"
 			(at 165.1 41.91 0)
 			(effects
 				(font
@@ -8592,6 +8850,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –65 °C to 150 °C"
 			(at 73.66 24.13 0)
 			(effects
 				(font
@@ -8704,6 +8980,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "By exemption"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –65 °C to 165 °C"
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87fd79c2-c986-4ca0-8e74-ddf57409b14d")
 		)
@@ -8729,22 +9023,24 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da84766")
 		(property "Reference" "R2"
-			(at 29.3116 166.37 90)
+			(at 35.56 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "49.9"
-			(at 31.623 166.37 90)
+			(at 35.56 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric"
 			(at 34.29 166.37 0)
 			(effects
 				(font
@@ -8771,8 +9067,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Yageo"
-			(at 34.29 166.37 90)
+		(property "MFN" "ROHM Semiconductor"
+			(at 27.94 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,8 +9076,8 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RC1210FR-0749R9L"
-			(at 34.29 166.37 90)
+		(property "PN" "LTR18EZPF49R9"
+			(at 27.94 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +9086,7 @@
 			)
 		)
 		(property "Config" "+curr_mod"
-			(at 34.29 166.37 90)
+			(at 27.94 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +9095,25 @@
 			)
 		)
 		(property "variant" "curr_mod"
-			(at 34.29 166.37 90)
+			(at 27.94 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "By exemption"
+			(at 34.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 34.29 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +9172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743201004_sd.pdf?inline"
+		(property "Datasheet" "https://www.conn-link.com.tw/proimage/control_page/cdvi-f29vdg1-p1.pdf"
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -8876,7 +9190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Conn_Link"
+		(property "MFN" "Conn-Link Technology Inc."
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -8886,6 +9200,24 @@
 			)
 		)
 		(property "PN" "CDVI-F29VDG1-P1"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –20 °C to 85 °C"
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -9066,6 +9398,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 70 °C"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "28c18f4a-6fb8-44d9-9ab6-d3b8ee57c978")
 		)
@@ -9202,7 +9552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904-Q.pdf"
 			(at 95.25 40.64 0)
 			(effects
 				(font
@@ -9230,7 +9580,25 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "MMBT3904VL"
+		(property "PN" "MMBT3904-QR"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –65 °C to 150 °C"
 			(at 95.25 40.64 0)
 			(effects
 				(font
@@ -9477,7 +9845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.99 82.55 0)
 			(effects
 				(font
@@ -9513,8 +9881,26 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RR0816Q-49R9-D-68R"
+		(property "PN" "RG2012P-49R9-D-T5"
 			(at 173.99 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 173.99 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,6 +9996,24 @@
 			)
 		)
 		(property "PN" "132291"
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –65 °C to 165 °C"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -10029,6 +10433,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 150 °C"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e72203a7-4fd3-4622-bb9c-8600bfabdd8f")
 		)
@@ -10139,7 +10561,7 @@
 	)
 	(symbol
 		(lib_id "Custom_logos:Logo_APQ")
-		(at 241.3 173.99 0)
+		(at 257.81 171.45 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10147,7 +10569,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f5191ff")
 		(property "Reference" "LOGO1"
-			(at 247.65 167.005 0)
+			(at 257.81 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +10578,7 @@
 			)
 		)
 		(property "Value" "Logo_APQ"
-			(at 247.65 180.34 0)
+			(at 257.81 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,7 +10587,7 @@
 			)
 		)
 		(property "Footprint" "custom:APQ-Logo_small"
-			(at 248.92 173.99 0)
+			(at 251.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +10596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 173.99 0)
+			(at 257.81 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +10605,7 @@
 			)
 		)
 		(property "Description" "Atoms - Photons - Quanta"
-			(at 241.3 173.99 0)
+			(at 257.81 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10192,7 +10614,7 @@
 			)
 		)
 		(property "MFN" ""
-			(at 241.3 173.99 0)
+			(at 257.81 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,7 +10623,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 241.3 173.99 0)
+			(at 257.81 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10632,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 241.3 173.99 0)
+			(at 257.81 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,6 +10713,24 @@
 			)
 		)
 		(property "PN" "RG1608P-102-D-T5"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
 			(at 198.12 77.47 0)
 			(effects
 				(font
@@ -10386,6 +10826,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b141b33-65ad-4426-be0e-a47b98ef625f")
 		)
@@ -10465,6 +10923,24 @@
 			)
 		)
 		(property "PN" "CGA3E2X7R1H103K080AA"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
 			(at 46.99 99.06 0)
 			(effects
 				(font
@@ -10616,6 +11092,24 @@
 		)
 		(property "PN" "BLM18KG102SZ1D"
 			(at 35.56 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 35.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,6 +11370,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0a9d4e0-4a35-4ef4-bf75-f8230a9a0080")
 		)
@@ -10976,7 +11488,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 35.56 128.27 270)
+		(at 39.37 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10984,7 +11496,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006044eac4")
 		(property "Reference" "FB2"
-			(at 35.56 122.2502 90)
+			(at 39.37 122.2502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +11504,7 @@
 			)
 		)
 		(property "Value" "BLM18KG102SZ1D"
-			(at 35.56 124.5616 90)
+			(at 39.37 124.5616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +11512,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 35.56 126.492 90)
+			(at 39.37 126.492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11009,7 +11521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 128.27 0)
+			(at 39.37 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,7 +11530,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 35.56 128.27 0)
+			(at 39.37 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,7 +11539,7 @@
 			)
 		)
 		(property "MFN" "Murata"
-			(at 35.56 128.27 90)
+			(at 39.37 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +11548,25 @@
 			)
 		)
 		(property "PN" "BLM18KG102SZ1D"
-			(at 35.56 128.27 90)
+			(at 39.37 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 39.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 39.37 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,6 +11668,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 165 °C"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fe13a67-b282-4ad4-b0e6-3184c4ce6127")
 		)
@@ -11214,7 +11762,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "LT1761ES5-5#TRPBF"
+		(property "PN" "LT1761IS5-5#TRPBF"
 			(at 171.45 143.51 0)
 			(effects
 				(font
@@ -11233,6 +11781,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 171.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 171.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 125 °C"
 			(at 171.45 143.51 0)
 			(effects
 				(font
@@ -11355,6 +11921,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 189.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 189.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "638f25d2-c0f3-4b26-98c2-56361c19f1f1")
 		)
@@ -11424,7 +12008,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Murata Electronics"
+		(property "MFN" "TDK"
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -11433,7 +12017,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "GRM21BR61H475KE51L"
+		(property "PN" "CGA4J1X7R1V475K125AC"
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -11452,6 +12036,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -11529,7 +12131,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Murata Electronics"
+		(property "MFN" "TDK"
 			(at 198.12 144.78 0)
 			(effects
 				(font
@@ -11538,7 +12140,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "GRM21BR61H475KE51L"
+		(property "PN" "CGA4J1X7R1V475K125AC"
 			(at 198.12 144.78 0)
 			(effects
 				(font
@@ -11557,6 +12159,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
 			(at 198.12 144.78 0)
 			(effects
 				(font
@@ -11735,6 +12355,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f853907f-0368-4b9f-8e86-2c6abac9120f")
 		)
@@ -11804,7 +12442,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Murata Electronics"
+		(property "MFN" "TDK"
 			(at 223.52 144.78 0)
 			(effects
 				(font
@@ -11813,7 +12451,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "GRM21BR61H475KE51L"
+		(property "PN" "CGA4J1X7R1V475K125AC"
 			(at 223.52 144.78 0)
 			(effects
 				(font
@@ -11832,6 +12470,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 223.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 223.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
 			(at 223.52 144.78 0)
 			(effects
 				(font
@@ -11909,7 +12565,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Murata Electronics"
+		(property "MFN" "TDK"
 			(at 269.24 144.78 0)
 			(effects
 				(font
@@ -11918,7 +12574,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "GRM21BR61H475KE51L"
+		(property "PN" "CGA4J1X7R1V475K125AC"
 			(at 269.24 144.78 0)
 			(effects
 				(font
@@ -11937,6 +12593,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
 			(at 269.24 144.78 0)
 			(effects
 				(font
@@ -12087,7 +12761,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "LT1964ES5-5#TRPBF"
+		(property "PN" "LT1964IS5-5#TRPBF"
 			(at 242.57 143.51 0)
 			(effects
 				(font
@@ -12106,6 +12780,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 125 °C"
 			(at 242.57 143.51 0)
 			(effects
 				(font
@@ -12218,6 +12910,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 125 °C"
 			(at 68.58 163.83 0)
 			(effects
 				(font
@@ -12347,6 +13057,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 113.03 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 125 °C"
+			(at 113.03 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f17a65f7-abec-47c3-a3a5-1e3418dfb18b")
 		)
@@ -12468,6 +13196,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 90.17 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 90.17 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "949dee6a-b798-4290-9697-231e27968c6a")
 		)
@@ -12503,8 +13249,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 113.03 152.4 90)
-		(mirror x)
+		(at 113.03 152.4 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12573,7 +13318,7 @@
 			)
 		)
 		(property "Config" "+curr_mod"
-			(at 90.17 163.83 90)
+			(at 135.89 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,6 +13328,24 @@
 		)
 		(property "variant" "curr_mod"
 			(at 113.03 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 113.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,8 +13388,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 113.03 179.07 90)
-		(mirror x)
+		(at 113.03 179.07 270)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12695,7 +13457,7 @@
 			)
 		)
 		(property "Config" "+curr_mod"
-			(at 90.17 163.83 90)
+			(at 135.89 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,6 +13467,24 @@
 		)
 		(property "variant" "curr_mod"
 			(at 113.03 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 113.03 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 113.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12833,6 +13613,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57f69936-8f2e-4b47-a56e-85d42fb14ddd")
 		)
@@ -12918,7 +13716,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Yageo"
+		(property "MFN" "Kemet"
 			(at 113.03 187.96 90)
 			(effects
 				(font
@@ -12927,7 +13725,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603CPNPO9BN1R5"
+		(property "PN" "C0603C159C5GACAUTO"
 			(at 113.03 187.96 90)
 			(effects
 				(font
@@ -12947,6 +13745,24 @@
 		)
 		(property "variant" "curr_mod"
 			(at 113.03 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 113.03 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,7 +13852,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:ADA4807-2ARM")
-		(at 147.32 176.53 0)
+		(at 138.43 168.91 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13044,7 +13860,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000607b7d1b")
 		(property "Reference" "U1"
-			(at 146.2532 175.3616 0)
+			(at 137.3632 167.7416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,7 +13869,7 @@
 			)
 		)
 		(property "Value" "ADA4807-2ARM"
-			(at 146.2532 177.673 0)
+			(at 137.3632 170.053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13878,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 147.32 176.53 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,7 +13887,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
-			(at 147.32 176.53 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13080,7 +13896,7 @@
 			)
 		)
 		(property "Description" "Dual Rail-to-Rail Input/Output Amplifiers, MSOP-8"
-			(at 147.32 176.53 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13089,7 +13905,7 @@
 			)
 		)
 		(property "MFN" "Analog Devices"
-			(at 147.32 176.53 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,7 +13914,7 @@
 			)
 		)
 		(property "PN" "ADA4807-2ARMZ"
-			(at 147.32 176.53 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13107,7 +13923,7 @@
 			)
 		)
 		(property "Config" "+curr_mod"
-			(at 68.58 163.83 0)
+			(at 59.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +13932,25 @@
 			)
 		)
 		(property "variant" "curr_mod"
-			(at 147.32 176.53 0)
+			(at 138.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 138.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 125 °C"
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13218,7 +14052,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RR0816Q-100-D"
+		(property "PN" "RG1608Q-100-D-T5 "
 			(at 100.33 147.32 90)
 			(effects
 				(font
@@ -13238,6 +14072,24 @@
 		)
 		(property "variant" "curr_mod"
 			(at 100.33 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 100.33 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +14196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AT21CS11-STXXXX-X"
+		(property "Value" "AT21CS11-STU10-T"
 			(at 156.21 127 0)
 			(effects
 				(font
@@ -13389,7 +14241,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" ""
+		(property "MFN" "Microchip Technology"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -13398,7 +14250,25 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "AT21CS11-STU10-T"
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –40 °C to 85 °C"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -13687,7 +14557,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Panasonic"
+		(property "MFN" "SEI Stackpole"
 			(at 213.36 106.68 0)
 			(effects
 				(font
@@ -13696,7 +14566,25 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ERJ-3RQF4R7V"
+		(property "PN" "RNCP0603FTD4R70"
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
 			(at 213.36 106.68 0)
 			(effects
 				(font
@@ -13956,21 +14844,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061d16380")
 		(property "Reference" "R6"
-			(at 41.91 158.75 0)
+			(at 43.18 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 44.45 158.75 0)
+			(at 43.18 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -14028,6 +14914,24 @@
 			)
 		)
 		(property "variant" "curr_mod"
+			(at 43.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 43.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 155 °C"
 			(at 43.18 161.29 0)
 			(effects
 				(font
@@ -14123,6 +15027,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Yes"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0960ca1-4b16-4fc0-978a-dff9b2d37d8a")
 		)
@@ -14133,6 +15055,549 @@
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 91.44 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ab48d1-ee34-4aee-ad34-0dbde1942964")
+		(property "Reference" "D2"
+			(at 91.1225 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS3010B"
+			(at 91.1225 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Infineon Technologies"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "BAS3010B03WE6327HTSA1"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Use a low Vf Schottky"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –65 °C to 125 °C"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f1b3380-55af-4435-9616-b68084c58469")
+		)
+		(pin "2"
+			(uuid "4642080a-7483-466c-9ecc-07b070d19995")
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a13e9d0-03e9-4070-990e-60273f57b2d8")
+		(property "Reference" "#PWR01"
+			(at 146.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.177 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1177f33-fd92-461e-87c1-6b2acd665392")
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b27d35f1-2d50-49d0-ae80-7cd6ccbd56a3")
+		(property "Reference" "C14"
+			(at 148.971 182.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 148.971 185.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.0152 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Kemet"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C0603C104K5RACAUTO"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd3eda1d-36d1-49d1-821b-3228097795dc")
+		)
+		(pin "2"
+			(uuid "95613954-3331-498e-a300-5643a92b7146")
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_logos:SYM_RoHS")
+		(at 236.22 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "bb095019-edb1-4e3b-a3c7-bf8e45d6018d")
+		(property "Reference" "LOGO3"
+			(at 242.57 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Logo_RoHS"
+			(at 242.57 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:RoHS-Logo_6mm_SilkScreen"
+			(at 243.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RoHS (Restriction of Hazardous Substances Directive) logo"
+			(at 236.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "1"
+			(at 236.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 236.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 236.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "LOGO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd535766-998f-4ee5-bda4-34479836be7a")
+		(property "Reference" "#PWR02"
+			(at 146.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.177 193.6242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5132aa63-5006-4bc8-a68b-105b103c0a88")
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f53f2ab6-ec76-47e9-94de-3426850f2469")
+		(property "Reference" "C13"
+			(at 148.971 156.3116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 148.971 158.623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.0152 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Kemet"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C0603C104K5RACAUTO"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5539a295-0dce-42fa-981c-a74b4cb51463")
+		)
+		(pin "2"
+			(uuid "c016104e-6de3-4fe8-9dd7-531cbab2953d")
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "C13")
 					(unit 1)
 				)
 			)
