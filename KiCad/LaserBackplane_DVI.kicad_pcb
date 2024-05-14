@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2023-11-15")
-		(rev "1.7.3")
+		(date "2024-05-14")
+		(rev "1.7.4")
 		(company "APQ")
 		(comment 1 "Tilman Preuschoff & Patrick Baus")
 	)
@@ -550,7 +550,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D2"
-			(at 0 -1.85 270)
+			(at 0 -1.85 -90)
 			(layer "F.SilkS")
 			(uuid "9e87a5aa-2eba-4134-96c8-9b3a22c2fda5")
 			(effects
@@ -561,7 +561,7 @@
 			)
 		)
 		(property "Value" "BAS3010B"
-			(at 0.1 1.9 270)
+			(at 0.1 1.9 -90)
 			(layer "F.Fab")
 			(uuid "75255c9c-5d84-4439-9fb2-d156c35f8a9b")
 			(effects
@@ -608,7 +608,7 @@
 			)
 		)
 		(property "MFN" "Infineon Technologies"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d889ca8f-ba90-4885-aa33-4614ac426f5e")
@@ -620,7 +620,7 @@
 			)
 		)
 		(property "Note" "Use a low Vf Schottky"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c26fe6a-9330-4983-9404-7ed7b93ce3c0")
@@ -632,7 +632,7 @@
 			)
 		)
 		(property "PN" "BAS3010B03WE6327HTSA1"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d6ab361-e04a-4248-a133-4e48a9c4466c")
@@ -845,7 +845,7 @@
 			(uuid "7dc4cc88-76a5-437d-be57-29e2965929ac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 270)
+			(at 0 -1.85 -90)
 			(layer "F.Fab")
 			(uuid "0bec73cd-4ba3-4735-9eec-b3283dd08acd")
 			(effects
@@ -894,7 +894,7 @@
 		(descr "DPDT signal relay, Omron G6A/G6AU, 20x9.9x8.2mm https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6a.pdf")
 		(tags "Omron G6A Relay DPDT")
 		(property "Reference" "K1"
-			(at 0.15 20.9 270)
+			(at 0.15 20.9 -90)
 			(layer "F.SilkS")
 			(uuid "f3d279ee-f6ac-4547-b697-dace1532a651")
 			(effects
@@ -905,7 +905,7 @@
 			)
 		)
 		(property "Value" "G6AU"
-			(at 3.81 20.5 270)
+			(at 3.81 20.5 -90)
 			(layer "F.Fab")
 			(uuid "e2e458fe-41d7-4511-99dd-11980ba2afd3")
 			(effects
@@ -952,7 +952,7 @@
 			)
 		)
 		(property "MFN" "Omron"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "108613b8-6b76-4102-82f3-4531abf84237")
@@ -964,7 +964,7 @@
 			)
 		)
 		(property "PN" "G6AU-274P-ST-US-DC9"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4133d31f-0575-4991-a106-84301c618e36")
@@ -1533,7 +1533,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 8.89 360)
+			(at 3.81 8.89 0)
 			(layer "F.Fab")
 			(uuid "8925cd36-784d-4495-b0cb-043c50ff30ea")
 			(effects
@@ -1914,7 +1914,7 @@
 			)
 		)
 		(property "Value" "49.9"
-			(at 0 2.65 270)
+			(at 0 2.65 -90)
 			(layer "F.Fab")
 			(uuid "8df86777-1852-48aa-8c91-317e0f57c6d8")
 			(effects
@@ -1961,7 +1961,7 @@
 			)
 		)
 		(property "Config" "+curr_mod"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a5a205a-2e54-4afc-9400-ae2f9fa5a2ba")
@@ -1973,7 +1973,7 @@
 			)
 		)
 		(property "MFN" "ROHM Semiconductor"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2b147b7-ae1b-4e7f-b7d5-bb05a83dac78")
@@ -1985,7 +1985,7 @@
 			)
 		)
 		(property "PN" "LTR18EZPF49R9"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdde231a-c289-4419-9bdc-590049649945")
@@ -1997,7 +1997,7 @@
 			)
 		)
 		(property "variant" "curr_mod"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fac1e4e0-6c9a-4462-9617-3a317a2aa1f6")
@@ -2140,7 +2140,7 @@
 			(uuid "ce786ea9-1232-4ff0-934a-b650ec783523")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "13a08b38-4b86-46aa-88c8-f71b33efaceb")
 			(effects
@@ -10999,7 +10999,7 @@
 			)
 		)
 		(property ki_fp_filters "MSOP*3x3mm*P0.65mm*")
-		(path "/00000000-0000-0000-0000-000060709020")
+		(path "/00000000-0000-0000-0000-0000607b7d1b")
 		(sheetname "Root")
 		(sheetfile "LaserBackplane_DVI.kicad_sch")
 		(attr smd)
@@ -13624,7 +13624,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 3 0 270)
+			(at 3 0 -90)
 			(layer "F.SilkS")
 			(uuid "646892b4-69bc-4219-bf2c-620eeb6f3e10")
 			(effects
@@ -13635,7 +13635,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "bf1d1097-b277-4df1-ad6a-4fa7fc5fe748")
 			(effects
@@ -13865,7 +13865,7 @@
 			(uuid "3f5f6a09-57a1-4080-9d79-1fb78cb9a6be")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "335088cc-82aa-4847-b241-21e0dfce30d8")
 			(effects
@@ -15971,7 +15971,7 @@
 	(footprint "custom:APQ-Logo_small"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005f51772b")
-		(at 144.2 110.7)
+		(at 144.2 109)
 		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -16349,19 +16349,19 @@
 		(layer "Edge.Cuts")
 		(uuid "d3dd7cdb-b730-487d-804d-99150ba318ef")
 	)
-	(gr_text "LaserBackplane\nTilman Preuschoff\n11/2023 Rev 1.7.3"
+	(gr_text "LaserBackplane v1.7.4\nDesign: T. Preuschoff, P. Baus\nDate: 2024-05\nhttps://github.com/TU-Darmstadt-APQ/\nLaser_Backplane_DVI"
 		(at 146.6 113.95 0)
 		(layer "B.SilkS")
 		(uuid "54ed3ee1-891b-418e-ab9c-6a18747d7388")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify left mirror)
 		)
 	)
-	(gr_text "Rev. 1.7.3"
+	(gr_text "Rev. 1.7.4"
 		(at 152.2 106.4 0)
 		(layer "F.SilkS")
 		(uuid "6d2a06fb-0b1e-452a-ab38-11a5f45e1b32")
@@ -19543,18 +19543,18 @@
 				(xy 143.787114 110.877791) (xy 143.787118 110.877793) (xy 143.915301 110.922646) (xy 143.945734 110.9255)
 				(xy 143.945736 110.9255) (xy 144.554264 110.9255) (xy 144.554266 110.9255) (xy 144.584699 110.922646)
 				(xy 144.712882 110.877793) (xy 144.82215 110.79715) (xy 144.902793 110.687882) (xy 144.947646 110.559699)
-				(xy 144.9505 110.529266) (xy 144.9505 109.470734) (xy 144.947646 109.440301) (xy 144.902793 109.312118)
-				(xy 144.902791 109.312114) (xy 144.822152 109.202851) (xy 144.771099 109.165173) (xy 144.751677 109.150839)
-				(xy 144.708747 109.094296) (xy 144.7005 109.049461) (xy 144.7005 108.890692) (xy 144.669799 108.776114)
-				(xy 144.669799 108.776112) (xy 144.66738 108.771923) (xy 144.6505 108.708924) (xy 144.6505 108.612514)
-				(xy 144.663303 108.557175) (xy 144.690572 108.501395) (xy 144.690573 108.501393) (xy 144.7005 108.43326)
-				(xy 144.7005 107.34174) (xy 144.690573 107.273607) (xy 144.639198 107.168517) (xy 144.639196 107.168514)
-				(xy 144.556485 107.085803) (xy 144.556482 107.085801) (xy 144.451394 107.034427) (xy 144.444672 107.033447)
-				(xy 144.431191 107.031483) (xy 144.366667 107.001869) (xy 144.328395 106.942071) (xy 144.328529 106.871075)
-				(xy 144.367025 106.811421) (xy 144.431661 106.782049) (xy 144.439477 106.781188) (xy 144.45375 106.780065)
-				(xy 144.6134 106.733681) (xy 144.756501 106.649051) (xy 144.756503 106.64905) (xy 144.87405 106.531503)
-				(xy 144.874051 106.531501) (xy 144.958681 106.388401) (xy 145.005065 106.228749) (xy 145.008 106.191456)
-				(xy 145.008 105.8665) (xy 144.072 105.8665) (xy 144.003879 105.846498) (xy 143.957386 105.792842)
+				(xy 144.9505 110.529266) (xy 144.9505 109.470734) (xy 144.947646 109.440301) (xy 144.942829 109.426536)
+				(xy 144.902793 109.312118) (xy 144.902791 109.312114) (xy 144.822152 109.202851) (xy 144.771099 109.165173)
+				(xy 144.751677 109.150839) (xy 144.708747 109.094296) (xy 144.7005 109.049461) (xy 144.7005 108.890692)
+				(xy 144.669799 108.776114) (xy 144.669799 108.776112) (xy 144.66738 108.771923) (xy 144.6505 108.708924)
+				(xy 144.6505 108.612514) (xy 144.663303 108.557175) (xy 144.690572 108.501395) (xy 144.690573 108.501393)
+				(xy 144.7005 108.43326) (xy 144.7005 107.34174) (xy 144.690573 107.273607) (xy 144.639198 107.168517)
+				(xy 144.639196 107.168514) (xy 144.556485 107.085803) (xy 144.556482 107.085801) (xy 144.451394 107.034427)
+				(xy 144.444672 107.033447) (xy 144.431191 107.031483) (xy 144.366667 107.001869) (xy 144.328395 106.942071)
+				(xy 144.328529 106.871075) (xy 144.367025 106.811421) (xy 144.431661 106.782049) (xy 144.439477 106.781188)
+				(xy 144.45375 106.780065) (xy 144.6134 106.733681) (xy 144.756501 106.649051) (xy 144.756503 106.64905)
+				(xy 144.87405 106.531503) (xy 144.874051 106.531501) (xy 144.958681 106.388401) (xy 145.005065 106.228749)
+				(xy 145.008 106.191456) (xy 145.008 105.8665) (xy 144.072 105.8665) (xy 144.003879 105.846498) (xy 143.957386 105.792842)
 				(xy 143.946 105.7405) (xy 143.946 105.3585) (xy 144.454 105.3585) (xy 145.007999 105.3585) (xy 145.007999 105.033543)
 				(xy 145.005065 104.996249) (xy 144.958681 104.836598) (xy 144.897473 104.733102) (xy 144.880013 104.664286)
 				(xy 144.902529 104.596954) (xy 144.918895 104.57957) (xy 144.91815 104.578825) (xy 145.048629 104.448345)

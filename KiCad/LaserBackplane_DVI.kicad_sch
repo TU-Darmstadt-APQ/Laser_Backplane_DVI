@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2023-11-15")
-		(rev "1.7.3")
+		(date "2024-05-14")
+		(rev "1.7.4")
 		(company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
 		(comment 1 "Tilman Preuschoff & Patrick Baus")
 	)
@@ -10541,15 +10541,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 275.59 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
@@ -10623,15 +10614,6 @@
 			)
 		)
 		(property "PN" ""
-			(at 257.81 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 257.81 171.45 0)
 			(effects
 				(font
