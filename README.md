@@ -32,6 +32,7 @@ Pin Configuration
 --------------------
 
 Connector: DVI-I Dual Link (female)
+
 ![Source: https://en.wikipedia.org/wiki/Digital_Visual_Interface#/media/File:DVI_Connector_Pinout.svg](img/DVI_pin_out.png)
 
 | Pin 		| Signal 		| Description 	|
