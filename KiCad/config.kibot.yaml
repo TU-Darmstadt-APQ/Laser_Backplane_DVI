@@ -1,22 +1,35 @@
 kibot:
   version: 1
 
-preflight:
-  run_drc: true
-  run_erc: true
-  update_xml: true
-  ignore_unconnected: false
+globals:
+  # Filters for KiBot warnings
   filters:
-    - filter: 'DVI GNDA is unconnected'
-      error: unconnected_items
-      regex: 'unconnected-\(J\d+-GNDA-PadC5\)'
-    - filter: 'DVI Shield is unconnected'
-      error: unconnected_items
-      regex: 'unconnected-\(J\d+-PadSH\)'
-    - filter: 'Custom 3D models were added to the footprints'
-      error: lib_footprint_mismatch
-      regex: 'SMA_Amphenol_901-144_Vertical|DVI-I_Conn_Link_CDVI-F29VDG1-P1|Relay_SPDT_OMRON-G6A|Coilcraft_XGL5050'
+    - filter: Ignore missing KiCad config, not in docker images
+      number: 8
+    - filter: Ignore missing KiCad 3D models, not in docker images
+      number: 10
+    - filter: Ignore missing KiCad config from KiAuto, not in docker images
+      number: 58
+      regex: kicad_common.json
+  # This will undo the `set_text_variables` when we run it locally
+  restore_project: true
 
+preflight:
+  update_xml: true
+  erc:
+    dont_stop: true  # Required for KiCad < 8.0.2 as some of the symbols and footprints are only included in Kicad 8.0.2
+  drc:
+    ignore_unconnected: false
+    filters:
+      - filter: 'DVI GNDA is unconnected'
+        error: unconnected_items
+        regex: 'unconnected-\(J\d+-GNDA-PadC5\)'
+      - filter: 'DVI Shield is unconnected'
+        error: unconnected_items
+        regex: 'unconnected-\(J\d+-PadSH\)'
+      - filter: 'Custom 3D models were added to the footprints'
+        error: lib_footprint_mismatch
+        regex: 'SMA_Amphenol_901-144_Vertical|DVI-I_Conn_Link_CDVI-F29VDG1-P1|Relay_SPDT_OMRON-G6A|Coilcraft_XGL5050'
 variants:
   - name: 'default'
     comment: 'PCB without current modulation circuit'
@@ -63,11 +76,11 @@ outputs:
       - 'B.Silkscreen'
       - 'F.Mask'
       - 'B.Mask'
+      - 'User.Comments'
+      - 'User.Drawings'
       - 'Edge.Cuts'
       - 'F.Fab'
       - 'B.Fab'
-      - 'User.Comments'
-      - 'User.Drawings'
 
   - name: 'excellon_drill'
     comment: 'Create the Excellon drill files to go with the Gerber files'
@@ -103,7 +116,7 @@ outputs:
     options:
       format: CSV
       conf: 'bom.ini'
-      output: '%sp_%I_%sr_(%V).%x'  # Note: The %v replacement is broken, so use _(%V) for now
+      output: '%f_%I_%sr_(%V).%x'  # Note: The %v replacement is broken, so use _(%V) for now
     output_id: 'bom'  # Used for the %I expansion int the output file name
 
   - name: 'iBOM'
@@ -114,7 +127,7 @@ outputs:
       dark_mode: false
       blacklist: 'LOGO*,TP*,H*'
       extra_fields: 'PN'
-      output: '%sp_%I_%sr%v.%x'
+      output: '%f_%I_%sr%v.%x'
       highlight_pin1: true
     output_id: 'ibom'  # Used for the %I expansion int the output file name
 
@@ -124,7 +137,7 @@ outputs:
     dir: schematics
     options:
       title: "+ (%V variant)"
-      output: '%I%v.%x'
+      output: '%f_%I_%sr%v.%x'
     output_id: 'schematics'  # Used for the %I expansion int the output file name
 
   - name: 'compress_bom'
@@ -146,7 +159,7 @@ outputs:
       files:
         - from_output: gerbers
         - from_output: excellon_drill
-      output: '%I.%x'
+      output: '%I%v.%x'
     output_id: 'gerbers'  # Used for the %I expansion int the output file name
 
   - name: 'compress_position'
