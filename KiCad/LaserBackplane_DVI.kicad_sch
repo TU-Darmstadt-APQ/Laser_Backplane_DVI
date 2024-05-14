@@ -9475,7 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay DPDT, EN50005 "
+		(property "Description" "Monostable Relay DPDT, EN50005"
 			(at 134.62 45.72 0)
 			(effects
 				(font
@@ -14138,7 +14138,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RG1608Q-100-D-T5 "
+		(property "PN" "RG1608Q-100-D-T5"
 			(at 100.33 147.32 90)
 			(effects
 				(font
@@ -15541,7 +15541,7 @@
 		(lib_id "Graphic:SYM_Flash_Small")
 		(at 222.25 33.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -15584,15 +15584,6 @@
 			)
 		)
 		(property "Description" "Flash symbol, small"
-			(at 222.25 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 222.25 33.02 0)
 			(effects
 				(font
