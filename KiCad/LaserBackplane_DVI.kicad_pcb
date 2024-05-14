@@ -16571,7 +16571,7 @@
 			(precision 4)
 		)
 		(style
-			(thickness 0.15)
+			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(extension_height 0.58642)
@@ -16604,7 +16604,7 @@
 			(precision 4)
 		)
 		(style
-			(thickness 0.15)
+			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(extension_height 0.58642)
@@ -16638,7 +16638,7 @@
 			(precision 4)
 		)
 		(style
-			(thickness 0.2)
+			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(extension_height 0.58642)
