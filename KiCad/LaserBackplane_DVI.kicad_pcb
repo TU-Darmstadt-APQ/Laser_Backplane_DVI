@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2024-05-14")
-		(rev "1.7.4")
+		(date "2024-05-15")
+		(rev "1.8.0")
 		(company "APQ")
 		(comment 1 "Tilman Preuschoff & Patrick Baus")
 	)
@@ -18102,7 +18102,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d3dd7cdb-b730-487d-804d-99150ba318ef")
 	)
-	(gr_text "LaserBackplane v1.7.4\nDesign: T. Preuschoff, P. Baus\nDate: 2024-05\nhttps://github.com/TU-Darmstadt-APQ/\nLaser_Backplane_DVI"
+	(gr_text "LaserBackplane v1.8.0\nDesign: T. Preuschoff, P. Baus\nDate: 2024-05\nhttps://github.com/TU-Darmstadt-APQ/\nLaser_Backplane_DVI"
 		(at 146.6 113.95 0)
 		(layer "B.SilkS")
 		(uuid "54ed3ee1-891b-418e-ab9c-6a18747d7388")
@@ -18114,7 +18114,7 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "Rev. 1.7.4"
+	(gr_text "Rev. 1.8.0"
 		(at 95 92.5 0)
 		(layer "F.SilkS")
 		(uuid "6d2a06fb-0b1e-452a-ab38-11a5f45e1b32")

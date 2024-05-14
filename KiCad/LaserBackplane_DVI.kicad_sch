@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2024-05-14")
-		(rev "1.7.4")
+		(date "2024-05-15")
+		(rev "1.8.0")
 		(company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
 		(comment 1 "Tilman Preuschoff & Patrick Baus")
 	)
