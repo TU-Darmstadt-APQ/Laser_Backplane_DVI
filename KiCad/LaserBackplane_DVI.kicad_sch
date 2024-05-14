@@ -6747,6 +6747,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 97.79) (xy 234.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d89103c-df91-46e2-9270-633a8c3ce12e")
+	)
+	(wire
+		(pts
 			(xy 137.16 90.17) (xy 137.16 105.41)
 		)
 		(stroke
@@ -6937,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 82.55) (xy 215.9 82.55)
+			(xy 213.36 82.55) (xy 229.87 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6987,7 +6997,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 97.79) (xy 215.9 97.79)
+			(xy 213.36 97.79) (xy 234.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7820,7 +7830,7 @@
 	)
 	(text "Close JP2 for GND referenced laser current drivers. \nFor floating devices, C6 is used to provide a low\nimpedance node for the current modulation at \nhigh frequencies. R9 guarantees stability of the \ndriver under capacitivte load."
 		(exclude_from_sim no)
-		(at 229.87 107.95 0)
+		(at 232.41 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7853,7 +7863,7 @@
 	)
 	(text "Q2 is used as reverse and over voltage protection"
 		(exclude_from_sim no)
-		(at 224.79 91.44 0)
+		(at 153.67 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10282,183 +10292,6 @@
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 220.98 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e881bc7")
-		(property "Reference" "J3"
-			(at 223.012 81.4832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ld+"
-			(at 223.012 83.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
-			(at 220.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 220.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 220.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 220.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd758a1e-1d24-42e5-94f9-c79dc5fb0413")
-		)
-		(instances
-			(project "LaserBackplane_DVI"
-				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 220.98 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005e881eab")
-		(property "Reference" "J4"
-			(at 223.012 96.7232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ld-"
-			(at 223.012 99.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
-			(at 220.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 220.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 220.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 220.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 220.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43f7b188-3c38-4aec-8f91-8fbccbdd3dcd")
-		)
-		(instances
-			(project "LaserBackplane_DVI"
-				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15141,6 +14974,120 @@
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 234.95 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0482e693-10bc-432c-aca7-dbb70e3d8fcc")
+		(property "Reference" "J8"
+			(at 237.49 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 237.49 85.4964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:SMP_TE_CONSMP001-SMD-G-T_Vertical"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CONSMP001-SMD-G-T"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature" "Tstorage = –65 °C to 155 °C"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55b699ea-814f-453b-89f2-103a81ecf9ae")
+		)
+		(pin "2"
+			(uuid "43307875-f312-45fe-a596-ce54b85a6b82")
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "J8")
 					(unit 1)
 				)
 			)
