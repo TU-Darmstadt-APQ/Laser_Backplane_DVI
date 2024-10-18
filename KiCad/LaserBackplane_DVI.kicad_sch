@@ -3874,6 +3874,101 @@
 				)
 			)
 		)
+		(symbol "Graphic:SYM_Flash_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Flash_Small"
+				(at 2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 10.16 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Flash symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic symbol flash VAC 220VAC 110VAC power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Flash_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.508 -1.016) (xy -1.016 -0.762) (xy -1.016 -3.048) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 3.81) (xy 0.508 3.81) (xy -0.254 1.524) (xy 1.27 2.286) (xy 0 -1.016) (xy -0.508 -0.762)
+						(xy 0.254 1.016) (xy -1.27 0.254) (xy -0.254 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -9208,6 +9303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-PCBA"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "RoHS" "Yes"
 			(at 95.25 92.71 0)
 			(effects
@@ -9371,7 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay DPDT, EN50005 "
+		(property "Description" "Monostable Relay DPDT, EN50005"
 			(at 134.62 45.72 0)
 			(effects
 				(font
@@ -14034,7 +14138,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "RG1608Q-100-D-T5 "
+		(property "PN" "RG1608Q-100-D-T5"
 			(at 100.33 147.32 90)
 			(effects
 				(font
@@ -15428,6 +15532,88 @@
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
 					(reference "LOGO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Flash_Small")
+		(at 222.25 33.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dce58cec-6a08-4000-b93c-1ce502331297")
+		(property "Reference" "SYM1"
+			(at 219.964 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Flash_Small"
+			(at 224.536 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom:Symbol_HighVoltage_Triangle_3x3mm"
+			(at 222.25 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Flash symbol, small"
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LaserBackplane_DVI"
+				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
+					(reference "SYM1")
 					(unit 1)
 				)
 			)

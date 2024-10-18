@@ -42,6 +42,12 @@ variants:
     file_id: _(curr_mod)
     variant: curr_mod
 
+  - name: 'PCBA'
+    comment: 'PCB without current modulation and without DVI connector.'
+    type: kibom
+    file_id: _(PCBA)
+    variant: PCBA
+
 outputs:
   - name: 'gerbers'
     comment: 'Create the Gerber files for the board house'
