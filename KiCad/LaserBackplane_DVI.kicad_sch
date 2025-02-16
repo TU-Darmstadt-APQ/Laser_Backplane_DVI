@@ -8535,6 +8535,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd4fa562-7c63-4ba1-a524-a8c37a94cc49")
 		)
@@ -8632,6 +8641,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 83.82 31.75 0)
 			(effects
 				(font
@@ -8745,6 +8763,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 165.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10d6bece-2fe2-4e9c-951c-ce0f71bb10fc")
 		)
@@ -8842,6 +8869,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –40 °C to 85 °C"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 165.1 41.91 0)
 			(effects
 				(font
@@ -8963,6 +8999,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –65 °C to 150 °C"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 73.66 24.13 0)
 			(effects
 				(font
@@ -9093,6 +9138,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 25.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87fd79c2-c986-4ca0-8e74-ddf57409b14d")
 		)
@@ -9126,7 +9180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "49.9R"
 			(at 35.56 167.64 0)
 			(effects
 				(font
@@ -9208,6 +9262,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 34.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 34.29 166.37 0)
 			(effects
 				(font
@@ -9322,6 +9385,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –20 °C to 85 °C"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 95.25 92.71 0)
 			(effects
 				(font
@@ -9520,6 +9592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "28c18f4a-6fb8-44d9-9ab6-d3b8ee57c978")
 		)
@@ -9703,6 +9784,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –65 °C to 150 °C"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 95.25 40.64 0)
 			(effects
 				(font
@@ -9941,7 +10031,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "49.9R"
 			(at 173.99 79.883 90)
 			(effects
 				(font
@@ -10004,6 +10094,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 173.99 82.55 0)
 			(effects
 				(font
@@ -10126,6 +10225,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "372c03b7-f3ce-4285-8a79-a23ebebdc0f1")
 		)
@@ -10202,6 +10310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 232.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91a3fbaf-aacd-4755-b3f8-d13cadbd6007")
 		)
@@ -10267,6 +10384,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 232.41 38.1 0)
 			(effects
 				(font
@@ -10351,6 +10477,15 @@
 			)
 		)
 		(property "PN" ""
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 220.98 82.55 0)
 			(effects
 				(font
@@ -10444,6 +10579,15 @@
 			)
 		)
 		(property "PN" ""
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -10555,6 +10699,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e72203a7-4fd3-4622-bb9c-8600bfabdd8f")
 		)
@@ -10645,6 +10798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 275.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
@@ -10718,6 +10880,15 @@
 			)
 		)
 		(property "PN" ""
+			(at 257.81 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 257.81 171.45 0)
 			(effects
 				(font
@@ -10817,6 +10988,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 198.12 77.47 0)
 			(effects
 				(font
@@ -10930,6 +11110,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b141b33-65ad-4426-be0e-a47b98ef625f")
 		)
@@ -11027,6 +11216,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 46.99 99.06 0)
 			(effects
 				(font
@@ -11195,6 +11393,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 35.56 92.71 0)
 			(effects
 				(font
@@ -11474,6 +11681,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0a9d4e0-4a35-4ef4-bf75-f8230a9a0080")
 		)
@@ -11660,6 +11876,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 39.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a7cc428-1fbd-458c-8b5e-2aa6f0fe19e3")
 		)
@@ -11764,6 +11989,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –40 °C to 165 °C"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 173.99 74.93 0)
 			(effects
 				(font
@@ -11885,6 +12119,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –40 °C to 125 °C"
+			(at 171.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 171.45 143.51 0)
 			(effects
 				(font
@@ -12025,6 +12268,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 189.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "638f25d2-c0f3-4b26-98c2-56361c19f1f1")
 		)
@@ -12148,6 +12400,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb813e4c-244c-4fbf-8ac1-5fe6dbc85f33")
 		)
@@ -12263,6 +12524,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 198.12 144.78 0)
 			(effects
 				(font
@@ -12459,6 +12729,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 260.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f853907f-0368-4b9f-8e86-2c6abac9120f")
 		)
@@ -12582,6 +12861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 223.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f6fbc87-cd39-4d24-8f5c-dad4bc9df885")
 		)
@@ -12697,6 +12985,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 269.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 269.24 144.78 0)
 			(effects
 				(font
@@ -12892,6 +13189,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "592af23c-e24e-4241-b105-046834f9f8db")
 		)
@@ -13014,6 +13320,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –40 °C to 125 °C"
+			(at 68.58 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 68.58 163.83 0)
 			(effects
 				(font
@@ -13161,6 +13476,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 113.03 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f17a65f7-abec-47c3-a3a5-1e3418dfb18b")
 		)
@@ -13292,6 +13616,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 90.17 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 90.17 163.83 0)
 			(effects
 				(font
@@ -13439,6 +13772,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b5825b2-b106-456e-8781-27c153b2fec1")
 		)
@@ -13570,6 +13912,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 113.03 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 113.03 179.07 0)
 			(effects
 				(font
@@ -13717,6 +14068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57f69936-8f2e-4b47-a56e-85d42fb14ddd")
 		)
@@ -13848,6 +14208,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 113.03 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 113.03 187.96 0)
 			(effects
 				(font
@@ -14044,6 +14413,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 138.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50d4f7d1-8f3d-437e-873b-90552433becb")
 		)
@@ -14094,7 +14472,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10R"
 			(at 102.997 147.32 90)
 			(effects
 				(font
@@ -14175,6 +14553,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 100.33 147.32 0)
 			(effects
 				(font
@@ -14355,6 +14742,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –40 °C to 85 °C"
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -14574,6 +14970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 226.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54b7405f-88db-41af-a8e9-82d894fabec5")
 		)
@@ -14607,7 +15012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7"
+		(property "Value" "4.7R"
 			(at 214.8586 107.823 0)
 			(effects
 				(font
@@ -14671,6 +15076,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 155 °C"
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 213.36 106.68 0)
 			(effects
 				(font
@@ -14832,6 +15246,15 @@
 			)
 		)
 		(property "PN" ""
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 46.99 166.37 0)
 			(effects
 				(font
@@ -15026,6 +15449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 43.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8775720e-42fc-469a-b568-a47b3754d4a8")
 		)
@@ -15123,6 +15555,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 213.36 113.03 0)
 			(effects
 				(font
@@ -15236,6 +15677,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –65 °C to 125 °C"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 91.44 60.96 0)
 			(effects
 				(font
@@ -15432,6 +15882,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 146.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd3eda1d-36d1-49d1-821b-3228097795dc")
 		)
@@ -15528,6 +15987,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 236.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "LaserBackplane_DVI"
 				(path "/cb6062da-8dcd-4826-92fd-4071e9e97213"
@@ -15602,6 +16070,15 @@
 			)
 		)
 		(property "PN" ""
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 222.25 33.02 0)
 			(effects
 				(font
@@ -15784,6 +16261,15 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 125 °C"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 146.05 157.48 0)
 			(effects
 				(font
