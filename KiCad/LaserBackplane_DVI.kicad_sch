@@ -9382,7 +9382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:DVI-I_Conn_Link_CDVI-F29VDG1-P1"
+		(property "Footprint" "custom:DVI-I_Conn-Link_CDVI-F29VDG1-P1_Vertical"
 			(at 85.09 92.075 0)
 			(effects
 				(font
