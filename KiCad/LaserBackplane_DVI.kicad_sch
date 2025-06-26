@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2025-06-24")
-		(rev "1.8.0")
-		(company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
+		(date "2025-06-27")
+		(rev "1.8.1")
+		(company "Atoms-Photons-Quanta, TU Darmstadt and Quantum Electronic Devices GmbH")
 		(comment 1 "and Tilman Preuschoff")
-		(comment 2 "Copyright (©) 2024, Patrick Baus <patrick.baus@physik.tu-darmstadt.de>")
+		(comment 2 "Copyright (©) 2025, Patrick Baus <patrick.baus@quantum-electronic-devices.de>")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:ADA4807-2ARM"
@@ -10613,7 +10613,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 275.59 173.99 0)
+		(at 279.4 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10621,7 +10621,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f518c10")
 		(property "Reference" "LOGO2"
-			(at 275.59 167.005 0)
+			(at 279.4 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +10630,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 275.59 179.705 0)
+			(at 279.4 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +10639,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:OSHW-Logo_7.5x8mm_SilkScreen"
-			(at 275.59 173.99 0)
+			(at 279.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10648,7 +10648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 173.99 0)
+			(at 279.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +10657,7 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 275.59 173.99 0)
+			(at 279.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10666,7 +10666,7 @@
 			)
 		)
 		(property "MFN" ""
-			(at 275.59 173.99 0)
+			(at 279.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,7 +10675,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 275.59 173.99 0)
+			(at 279.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
