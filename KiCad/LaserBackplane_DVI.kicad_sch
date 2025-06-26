@@ -9146,7 +9146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
 			(at 25.4 161.29 0)
 			(effects
 				(font
@@ -10188,7 +10188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
 			(at 257.81 29.21 0)
 			(effects
 				(font
