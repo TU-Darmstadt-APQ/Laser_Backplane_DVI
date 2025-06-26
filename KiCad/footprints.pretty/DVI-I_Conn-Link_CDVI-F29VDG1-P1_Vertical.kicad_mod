@@ -1,7 +1,7 @@
 (footprint "DVI-I_Conn-Link_CDVI-F29VDG1-P1_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DVI-I Dual Link connector, vertical, 29 pins, Conn-Link P/N CDVI-F29VDG1-P1, https://www.conn-link.com.tw/proimage/control_page/cdvi-f29vdg1-p1.pdf")
 	(tags "dvi")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "DVI-I_Conn-Link_CDVI-F29VDG1-P1_Vertical"
-		(at -10.5565 3.7592 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "240154db-f7ea-495a-b4f6-432b962e9f41")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at -9.9215 -3.8608 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -142,7 +132,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "35a43ee3-f922-4cb5-a6df-497a75e7e09a")
 	)
@@ -379,7 +369,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c7329091-1dce-4766-96bd-4d648fd48682")
 	)
@@ -390,7 +380,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "51f1b36e-95e4-4f53-9498-b64b3ca3969a")
 	)
@@ -662,15 +652,5 @@
 		(remove_unused_layers no)
 		(uuid "b75ad888-cf68-4348-be97-a80bae900a20")
 	)
-	(model "${KIPRJMOD}/footprints.3dshapes/743203000.stp"
-		(offset
-			(xyz -9.9215 3.8608 4.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(embedded_fonts no)
 )
