@@ -9,10 +9,11 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2025-06-24")
-		(rev "1.8.0")
-		(company "APQ")
+		(date "2025-06-27")
+		(rev "1.8.1")
+		(company "Atoms-Photons-Quanta, TU Darmstadt and Quantum Electronic Devices GmbH")
 		(comment 1 "Tilman Preuschoff & Patrick Baus")
+		(comment 2 "Copyright (©) 2025, Patrick Baus <patrick.baus@quantum-electronic-devices.de>")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -18339,7 +18340,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "LaserBackplane v1.8.0\nDesign: T. Preuschoff, P. Baus\nDate: 2025-06\nhttps://github.com/TU-Darmstadt-APQ/\nLaser_Backplane_DVI"
+	(gr_text "LaserBackplane v1.8.1\nDesign: T. Preuschoff, P. Baus\nDate: 2025-06\nhttps://github.com/TU-Darmstadt-APQ/\nLaser_Backplane_DVI"
 		(at 146.6 113.95 0)
 		(layer "B.SilkS")
 		(uuid "54ed3ee1-891b-418e-ab9c-6a18747d7388")
