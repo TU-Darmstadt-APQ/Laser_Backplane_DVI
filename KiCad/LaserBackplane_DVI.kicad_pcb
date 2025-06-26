@@ -2024,7 +2024,7 @@
 		(descr "Resistor SMD 0612 (1632 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20019/rcwe.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 3.25 0)
+			(at 0 2.75 90)
 			(layer "F.SilkS")
 			(uuid "8be21108-7e14-4aef-9791-bd36b43fb83f")
 			(effects
@@ -15893,7 +15893,7 @@
 		(descr "https://www.amphenolrf.com/library/download/link/link_id/595983/parent/132291/")
 		(tags "SMA THT Female Jack Vertical Bulkhead")
 		(property "Reference" "J1"
-			(at 0 4.75 180)
+			(at 5.25 0 180)
 			(layer "B.SilkS")
 			(uuid "2b998b89-4038-4018-b930-5da57fc7caef")
 			(effects
@@ -16306,7 +16306,7 @@
 		(descr "https://www.amphenolrf.com/library/download/link/link_id/595983/parent/132291/")
 		(tags "SMA THT Female Jack Vertical Bulkhead")
 		(property "Reference" "J7"
-			(at 0 4.75 180)
+			(at 5.25 0 180)
 			(layer "B.SilkS")
 			(uuid "f3c83426-adfe-44fe-a06e-e125ba0dca92")
 			(effects
