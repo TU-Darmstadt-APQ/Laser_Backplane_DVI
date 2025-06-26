@@ -8957,6 +8957,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-PCBA"
+			(at 165.1 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "RoHS" "Yes"
 			(at 165.1 41.91 0)
 			(effects
