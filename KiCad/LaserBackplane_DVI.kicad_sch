@@ -8693,7 +8693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 85.598 32.893 0)
 			(effects
 				(font
@@ -8738,7 +8738,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CRCW0603100KFKEA"
+		(property "PN" "CRCW060347K0FKEA"
 			(at 83.82 31.75 0)
 			(effects
 				(font
