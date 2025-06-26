@@ -1,7 +1,7 @@
 (footprint "SMP_TE_CONSMP001-SMD-G-T_Vertical"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7Fconsmp001-smd-g-t-ds%7FA%7Fpdf%7FEnglish%7FENG_DS_consmp001-smd-g-t-ds_A.pdf%7FCONSMP001-SMD-G-T")
 	(tags "SMP SMD Female Jack Vertical")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SMP_TE_CONSMP001-SMD-G-T_Vertical"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "16366e20-9caf-43db-9206-00c69d322e49")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7Fconsmp001-smd-g-t-ds%7FA%7Fpdf%7FEnglish%7FENG_DS_consmp001-smd-g-t-ds_A.pdf%7FCONSMP001-SMD-G-T"
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -121,7 +111,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "4e12132c-4c04-4c84-9607-3a881ff279ae")
 	)
@@ -219,7 +209,7 @@
 	(pad "1" smd roundrect
 		(at 0 -2.9)
 		(size 0.48 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "6024e43f-e791-4d37-96ff-b510fcac4719")
@@ -227,7 +217,7 @@
 	(pad "2" smd custom
 		(at -2 -2 270)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -253,7 +243,7 @@
 	(pad "2" smd custom
 		(at -2 2)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -279,7 +269,7 @@
 	(pad "2" smd custom
 		(at 2 -2 90)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -305,7 +295,7 @@
 	(pad "2" smd custom
 		(at 2 2)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -328,15 +318,5 @@
 		)
 		(uuid "fb7e1c12-0f6a-4336-818d-8bf26a6fa42f")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132134-10_Vertical.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(embedded_fonts no)
 )
