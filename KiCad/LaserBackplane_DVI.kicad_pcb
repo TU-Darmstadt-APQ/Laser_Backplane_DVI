@@ -15676,6 +15676,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Config" "-PCBA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "16b284af-8777-4389-9461-1bc5d34ea0c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005bc1fd28")
 		(sheetname "/")
@@ -23015,46 +23029,6 @@
 		)
 	)
 	(zone
-		(net 12)
-		(net_name "Net-(D4-A)")
-		(layer "F.Cu")
-		(uuid "0805374d-b465-4df5-b788-c26b6eede6d4")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30011)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 102.323223 101.776776) (xy 102.676776 101.423223) (xy 103.110323 100.500013) (xy 102.361293 99.999293)
-				(xy 101.613677 100.500013)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 102.367798 100.003642) (xy 103.101957 100.49442) (xy 103.106931 100.501867) (xy 103.106045 100.50912)
-				(xy 102.677646 101.421369) (xy 102.675329 101.424669) (xy 102.334189 101.765809) (xy 102.325916 101.769236)
-				(xy 102.317643 101.765809) (xy 102.315689 101.763219) (xy 101.618907 100.509424) (xy 101.617884 100.500528)
-				(xy 101.622621 100.494022) (xy 102.354789 100.003648) (xy 102.363569 100.001892)
-			)
-		)
-	)
-	(zone
 		(net 14)
 		(net_name "Relay-")
 		(layer "F.Cu")
@@ -27276,6 +27250,44 @@
 				(xy 142.292685 105.620787) (xy 142.006376 105.906144) (xy 141.998098 105.909557) (xy 141.992222 105.907963)
 				(xy 141.705805 105.740886) (xy 141.700385 105.733758) (xy 141.7 105.73078) (xy 141.7 105.494219)
 				(xy 141.703427 105.485946) (xy 141.7058 105.484116) (xy 141.992224 105.317035) (xy 142.001095 105.315827)
+			)
+		)
+	)
+	(zone
+		(net 12)
+		(net_name "Net-(D4-A)")
+		(layer "F.Cu")
+		(uuid "df7a7a4f-5066-4ef1-a7dc-6b0eb4268f69")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 102.323223 101.776776) (xy 102.676776 101.423223) (xy 103.110323 100.500013) (xy 102.361293 99.999293)
+				(xy 101.613677 100.500013)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 102.323223 101.776776) (xy 102.676776 101.423223) (xy 103.110323 100.500013) (xy 102.361293 99.999293)
+				(xy 101.613677 100.500013)
 			)
 		)
 	)
