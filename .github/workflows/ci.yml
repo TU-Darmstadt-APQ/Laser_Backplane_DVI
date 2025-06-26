@@ -226,7 +226,7 @@ jobs:
         if: github.event.action == 'published'
         run: |
           mv "./manufacturing_files/gerbers_(${{ matrix.variant }}).zip" ${{ needs.tests.outputs.basename }}_gerber_${{ needs.tests.outputs.revision }}_${{ matrix.variant }}.zip
-          gh release upload ${{ github.ref_name }} ${{ needs.tests.outputs.basename }}_gerber_${{ needs.tests.outputs.revision }}_all.zip#"Gerber files for the ${{ matrix.variant }} variant (zip)" --repo ${{ github.repository }}
+          gh release upload ${{ github.ref_name }} ${{ needs.tests.outputs.basename }}_gerber_${{ needs.tests.outputs.revision }}_${{ matrix.variant }}.zip#"Gerber files for the ${{ matrix.variant }} variant (zip)" --repo ${{ github.repository }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
