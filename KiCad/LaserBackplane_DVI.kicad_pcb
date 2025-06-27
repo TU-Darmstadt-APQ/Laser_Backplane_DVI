@@ -18317,7 +18317,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev. 1.8.0"
+	(gr_text "Rev. 1.8.1"
 		(at 95 92.5 0)
 		(layer "F.SilkS")
 		(uuid "6d2a06fb-0b1e-452a-ab38-11a5f45e1b32")
