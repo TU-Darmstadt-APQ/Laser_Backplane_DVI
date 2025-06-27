@@ -17,6 +17,7 @@ globals:
 preflight:
   update_xml: true
   erc:
+    warnings_as_errors: true
     filters:
       - filter: 'The net names are used for convenience'
         error: multiple_net_names
