@@ -149,7 +149,7 @@ jobs:
           config: ${{ env.KIBOT_CONFIG }}
           schema: ${{ env.SCHEMATIC_FILE }}
           board: ${{ env.PCB_FILE }}
-          skip: run_erc,run_drc
+          skip: erc,drc
           variant: ${{ matrix.variant }}
           verbose: 0  # use 3 for debugging
 
