@@ -9182,7 +9182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "+curr_mod"
+		(property "Config" "+curr_mod,-PCBA"
 			(at 25.4 161.29 0)
 			(effects
 				(font

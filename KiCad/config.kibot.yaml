@@ -17,19 +17,17 @@ globals:
 preflight:
   update_xml: true
   erc:
-    dont_stop: true  # Required for KiCad < 8.0.2 as some of the symbols and footprints are only included in Kicad 8.0.2
+    filters:
+      - filter: 'The net names are used for convenience'
+        error: multiple_net_names
+        regex: 'Both Curr_Mod and LD_short\+ are attached to the same items|Both LD_short- and Ld- are attached to the same items'
   drc:
     ignore_unconnected: false
     filters:
-      - filter: 'DVI GNDA is unconnected'
-        error: unconnected_items
-        regex: 'unconnected-\(J\d+-GNDA-PadC5\)'
-      - filter: 'DVI Shield is unconnected'
-        error: unconnected_items
-        regex: 'unconnected-\(J\d+-PadSH\)'
       - filter: 'Custom 3D models were added to the footprints'
         error: lib_footprint_mismatch
-        regex: 'SMA_Amphenol_901-144_Vertical|DVI-I_Conn_Link_CDVI-F29VDG1-P1|Relay_SPDT_OMRON-G6A|Coilcraft_XGL5050'
+        regex: 'lib_footprint_mismatch|DVI-I_Conn_Link_CDVI-F29VDG1-P1|Coilcraft_XGL5050|TestPoint_Keystone_5015_Micro_Mini'
+
 variants:
   - name: 'default'
     comment: 'PCB without current modulation circuit'
@@ -47,6 +45,12 @@ variants:
     type: kibom
     file_id: _(PCBA)
     variant: PCBA
+
+  - name: 'curr_mod,PCBA'
+    comment: 'PCB with current modulation and without DVI connector.'
+    type: kibom
+    file_id: _(curr_mod, PCBA)
+    variant: 'curr_mod,PCBA'
 
 outputs:
   - name: 'gerbers'
