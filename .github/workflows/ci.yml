@@ -94,7 +94,7 @@ jobs:
           config: ${{ env.KIBOT_CONFIG }}
           schema: ${{ env.SCHEMATIC_FILE }}
           dir: generated
-          skip: run_drc
+          skip: drc
           targets: __NONE__  # Only run preflights
 
       - name: Upload results
@@ -121,7 +121,7 @@ jobs:
           config: ${{ env.KIBOT_CONFIG }}
           board: ${{ env.PCB_FILE }}
           dir: generated
-          skip: run_erc
+          skip: erc
           targets: __NONE__  # Only run preflights
 
       - name: Upload results

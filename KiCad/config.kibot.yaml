@@ -19,8 +19,8 @@ preflight:
   erc:
     filters:
       - filter: 'The net names are used for convenience'
-      - error: multiple_net_names
-      - regex: 'Both Curr_Mod and LD_short\+ are attached to the same items'
+        error: multiple_net_names
+        regex: 'Both Curr_Mod and LD_short\+ are attached to the same items'
   drc:
     ignore_unconnected: false
     filters:
