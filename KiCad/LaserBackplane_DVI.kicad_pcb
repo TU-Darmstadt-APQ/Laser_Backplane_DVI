@@ -15959,7 +15959,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Config" "+curr_mod"
+		(property "Config" "+curr_mod,-PCBA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
