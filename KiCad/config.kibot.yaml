@@ -50,7 +50,7 @@ variants:
     comment: 'PCB with current modulation and without DVI connector.'
     type: kibom
     file_id: _(curr_mod, PCBA)
-    variant: 'curr_mod, PCBA'
+    variant: 'curr_mod,PCBA'
 
 outputs:
   - name: 'gerbers'
