@@ -9636,7 +9636,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "G6AU-274P-ST-US-DC9"
+		(property "PN" "G6AU-274P-ST-US DC9"
 			(at 134.62 45.72 0)
 			(effects
 				(font
