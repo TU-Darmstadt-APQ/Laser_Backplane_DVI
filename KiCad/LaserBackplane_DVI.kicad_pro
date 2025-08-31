@@ -73,7 +73,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|149750000|93000000|00000000-0000-0000-0000-000061815a87|00000000-0000-0000-0000-000000000000",
+          "Removed paste layer"
+        ],
+        [
+          "lib_footprint_mismatch|155500000|93000000|00000000-0000-0000-0000-000061815a98|00000000-0000-0000-0000-000000000000",
+          "Removed paste layer"
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
