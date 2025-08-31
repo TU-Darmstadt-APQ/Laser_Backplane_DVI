@@ -81,14 +81,6 @@
         [
           "lib_footprint_mismatch|155500000|93000000|00000000-0000-0000-0000-000061815a98|00000000-0000-0000-0000-000000000000",
           "Removed paste layer"
-        ],
-        [
-          "unconnected_items|108245000|99500000|F.Cu|4|6a650eff-2300-4c0e-b488-19b078358b0c|6a650eff-2300-4c0e-b488-19b078358b0c",
-          "Shield is internally connected"
-        ],
-        [
-          "unconnected_items|116245000|96938000|F.Cu|4|3619530c-cedc-4dac-a170-164a39569bbd|3619530c-cedc-4dac-a170-164a39569bbd",
-          "Shield is internally connected"
         ]
       ],
       "meta": {
@@ -276,7 +268,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1320800|355600|12f8e43c-8f83-48d3-a9b5-5f3ebc0b6c43|07d160b6-23e1-4aa0-95cb-440482e6fc15|/cb6062da-8dcd-4826-92fd-4071e9e97213|/cb6062da-8dcd-4826-92fd-4071e9e97213|/cb6062da-8dcd-4826-92fd-4071e9e97213",
+        "This was done for improved readability"
+      ],
+      [
+        "multiple_net_names|1612900|977900|a6738794-75ae-48a6-8949-ed8717400d71|72366acb-6c86-4134-89df-01ed6e4dc8e0|/cb6062da-8dcd-4826-92fd-4071e9e97213|/cb6062da-8dcd-4826-92fd-4071e9e97213|/cb6062da-8dcd-4826-92fd-4071e9e97213",
+        "This was done for improved readability"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -475,20 +476,20 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "error",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
