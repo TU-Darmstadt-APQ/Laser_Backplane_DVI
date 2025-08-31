@@ -4042,7 +4042,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Microchip:AT21CS11-STXXXX-X"
+		(symbol "Microchip:AT21CS11-STU10‑T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4054,7 +4054,7 @@
 					)
 				)
 			)
-			(property "Value" "AT21CS11-STXXXX-X"
+			(property "Value" "AT21CS11-STU10‑T"
 				(at 2.54 -6.35 0)
 				(effects
 					(font
@@ -4081,7 +4081,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SOT-23"
+			(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, 2.7V to 4.5V, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4099,7 +4099,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DFN*3x2mm*P0.5mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4108,7 +4108,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AT21CS11-STXXXX-X_1_1"
+			(symbol "AT21CS11-STU10‑T_1_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -14302,7 +14302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Microchip:AT21CS11-STXXXX-X")
+		(lib_id "Microchip:AT21CS11-STU10‑T")
 		(at 152.4 119.38 0)
 		(mirror y)
 		(unit 1)
@@ -14347,7 +14347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SOT-23"
+		(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, 2.7V to 4.5V, SOT-23"
 			(at 152.4 119.38 0)
 			(effects
 				(font
