@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2025-06-27")
-		(rev "1.8.1")
+		(date "2025-08-31")
+		(rev "1.9.0")
 		(company "Atoms-Photons-Quanta, TU Darmstadt and Quantum Electronic Devices GmbH")
 		(comment 1 "and Tilman Preuschoff")
 		(comment 2 "Copyright (©) 2025, Patrick Baus <patrick.baus@quantum-electronic-devices.de>")

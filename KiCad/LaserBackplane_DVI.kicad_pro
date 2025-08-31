@@ -73,7 +73,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|149750000|93000000|00000000-0000-0000-0000-000061815a87|00000000-0000-0000-0000-000000000000",
+          "Removed paste layer"
+        ],
+        [
+          "lib_footprint_mismatch|155500000|93000000|00000000-0000-0000-0000-000061815a98|00000000-0000-0000-0000-000000000000",
+          "Removed paste layer"
+        ],
+        [
+          "unconnected_items|108245000|99500000|F.Cu|4|6a650eff-2300-4c0e-b488-19b078358b0c|6a650eff-2300-4c0e-b488-19b078358b0c",
+          "Shield is internally connected"
+        ],
+        [
+          "unconnected_items|116245000|96938000|F.Cu|4|3619530c-cedc-4dac-a170-164a39569bbd|3619530c-cedc-4dac-a170-164a39569bbd",
+          "Shield is internally connected"
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -474,6 +491,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
