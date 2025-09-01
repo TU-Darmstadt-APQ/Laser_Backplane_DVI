@@ -1,8 +1,6 @@
 [![Build manufacturing files](https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI/actions/workflows/ci.yml/badge.svg)](https://github.com/TU-Darmstadt-APQ/Laser_Backplane_DVI/actions/workflows/ci.yml)
 
-Laser Head with fast Modulation Input
-===================
-
+# Laser Head with fast Modulation Input
 This repository contains the [KiCad](https://www.kicad.org/) design files for a compact laser backplane with a DVI connector for application in an ECDL laser system. The laser backplane features a fast current modulation input designed for large-bandwidth laser-frequency stabilization and a laser diode protection circuit. An additional connector for the laser piezo actuator is available.
 
 
@@ -11,14 +9,11 @@ This repository contains the [KiCad](https://www.kicad.org/) design files for a 
 ![RedPitaya_Lockbox](img/LaserBackplane_DVI_back.png)
 
 
-Laser diode protection circuit
---------------------
-
+## Laser diode protection circuit
 The protection circuit consists of a relay and a reverse protection diode. The latching relay shorts the laser diode whenever the cable is disconnected or the current driver is turned off. In order to reduce the relay idle current, a latching relay and circuit are used. A fast switching transistor is used as reverse protection diode. The transistor features a very low reverse current leakage and a fast reverse recovery time.
 
 
-Fast Current Modulation
---------------------
+## Fast Current Modulation
 The fast modulation input consists of a Howland Current Pump complemented by a passive impedance matching network (see related work for details). It features:
 - 3 dB gain flatness DC to 100 MHz
 - Phase lag below 90° up to 25 MHz
@@ -28,8 +23,7 @@ The fast modulation input consists of a Howland Current Pump complemented by a p
 **Note on the compliance voltage**
 The compliance voltage of the Howland Current Pump is half of the positive output voltage swing of the operational amplifier. The circuit is implemented by a rail-to-rail output operational amplifier (ADA4807) supplied by ±5 V. Hence, the voltage at the laser diode anode is limited to 2.4 V accounting for a small head-room. Some additional head-room should be reserved for the (small) rise of the voltage required for the maximal output of the current source (5 mA). The maximal laser diode anode voltage is sufficient as a compliance voltage for infra red laser diodes. 
 
-Pin Configuration
---------------------
+## Pin Configuration
 
 Connector: DVI-I Dual Link (female)
 
@@ -56,8 +50,7 @@ Connector: DVI-I Dual Link (female)
 |  SH		| NC			| 	Connect the shield to the laser case only			|
 
 
-Design Files
-------------------
+## Design Files
 The design files can be found on the [releases](../../releases) page and include the following resources:
 
 - Schematics as a PDF
@@ -68,9 +61,7 @@ The design files can be found on the [releases](../../releases) page and include
 The latest revision of those files can be found [here](../../releases/latest).
 
 
-Related Work
---------------------
-
+## Related Work
 Review of Scientific Instruments **93**, 063002 (2022); https://doi.org/10.1063/5.0093520
 
 arXiv:2203.06097 [physics.optics]; [https://arxiv.org/abs/2203.06097](https://arxiv.org/abs/2203.06097)
@@ -78,8 +69,6 @@ arXiv:2203.06097 [physics.optics]; [https://arxiv.org/abs/2203.06097](https://ar
 T. Preuschoff, *Laser Technologies for Applications in Quantum Information Science*, Ph.D. thesis, TU Darmstadt, 2023, [https://tuprints.ulb.tu-darmstadt.de/23242/](https://tuprints.ulb.tu-darmstadt.de/23242/)
 
 
-License
--------
-
-This work is released under the CERN OHL v.1.2
-See www.ohwr.org/licenses/cern-ohl/v1.2 or the included LICENSE file for more information.
+## License
+This work is released under the CERN-OHL-W
+See [https://ohwr.org/cern_ohl_w_v2.pdf](https://ohwr.org/cern_ohl_w_v2.pdf) or the included LICENSE file for more information.
