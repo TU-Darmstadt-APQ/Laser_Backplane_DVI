@@ -98,7 +98,7 @@ jobs:
           targets: __NONE__  # Only run preflights
 
       - name: Upload results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ERC_Output
           path: generated
@@ -125,7 +125,7 @@ jobs:
           targets: __NONE__  # Only run preflights
 
       - name: Upload results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: DRC_Output
           path: generated
@@ -154,21 +154,21 @@ jobs:
           verbose: 0  # use 3 for debugging
 
       - name: Upload bill of materials files as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: manufacturing_files-bom-${{ matrix.variant }}
           path: bom_files_compressed
           retention-days: 7
 
       - name: Upload schematic files as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: manufacturing_files-schematics-${{ matrix.variant }}
           path: schematics
           retention-days: 7
 
       - name: Upload Gerber files as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: manufacturing_files-gerber-${{ matrix.variant }}
           path: gerber_files_compressed
