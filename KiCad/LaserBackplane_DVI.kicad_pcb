@@ -17053,7 +17053,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "LaserBackplane v1.9.0\nDesign: T. Preuschoff, P. Baus\nDate: 2025-08\nhttps://github.com/TU-Darmstadt-APQ/\nLaser_Backplane_DVI"
+	(gr_text "LaserBackplane v1.9.1\nDesign: T. Preuschoff, P. Baus\nDate: 2026-04\nhttps://github.com/TU-Darmstadt-APQ/\nLaser_Backplane_DVI"
 		(at 146.6 113.95 0)
 		(layer "B.SilkS")
 		(uuid "54ed3ee1-891b-418e-ab9c-6a18747d7388")
