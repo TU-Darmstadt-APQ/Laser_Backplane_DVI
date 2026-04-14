@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Laser Backplane Diode DVI")
-		(date "2025-08-31")
-		(rev "1.9.0")
+		(date "2026-04-14")
+		(rev "1.9.1")
 		(company "Atoms-Photons-Quanta, TU Darmstadt and Quantum Electronic Devices GmbH")
 		(comment 1 "and Tilman Preuschoff")
 		(comment 2 "Copyright (©) 2025, Patrick Baus <patrick.baus@quantum-electronic-devices.de>")
@@ -5111,6 +5111,24 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
@@ -5305,6 +5323,24 @@
 				)
 			)
 			(property "Description" "NPN transistor, emitter/base/collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9854,6 +9890,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "394febab-7571-4336-adce-ce25f1a5dfc5")
 		)
@@ -10585,6 +10639,24 @@
 			)
 		)
 		(property "Temperature" "Tstorage = –55 °C to 150 °C"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 210.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 210.82 90.17 0)
 			(effects
 				(font
